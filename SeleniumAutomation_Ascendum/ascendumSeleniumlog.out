@@ -1,0 +1,434 @@
+2019-04-22 11:33:46 INFO  TestBase:54 - Creating the object of chrome
+2019-04-22 11:33:49 INFO  TestBase:66 - Navigating to https://www.ascendum.com
+2019-04-22 11:41:01 INFO  TestBase:54 - Creating the object of chrome
+2019-04-22 11:41:05 INFO  TestBase:66 - Navigating to https://www.ascendum.com
+2019-04-22 11:41:05 INFO  TestBase:27 - The webelement : Services is present on the web page.
+2019-04-22 11:41:05 INFO  TestBase:27 - The webelement : Resources is present on the web page.
+2019-04-22 11:41:05 INFO  TestBase:27 - The webelement : Careers is present on the web page.
+2019-04-22 11:41:05 INFO  TestBase:27 - The webelement : Contact is present on the web page.
+2019-04-22 11:41:06 INFO  TestBase:65 - https://ascendum.com/company/ OK. The url is valid
+2019-04-22 11:41:07 INFO  TestBase:65 - https://ascendum.com/resource-center/case-studies/ OK. The url is valid
+2019-04-22 11:41:07 INFO  TestBase:65 - https://ascendum.com/careers/culture-and-values/ OK. The url is valid
+2019-04-22 11:41:08 INFO  TestBase:65 - https://ascendum.com/contact/ OK. The url is valid
+2019-04-22 11:41:08 INFO  TestBase:65 - https://ascendum.com/ OK. The url is valid
+2019-04-22 11:41:08 INFO  TestBase:65 - https://ascendum.com/services/ OK. The url is valid
+2019-04-22 11:41:09 INFO  TestBase:65 - https://ascendum.com/services/ OK. The url is valid
+2019-04-22 11:41:09 INFO  TestBase:65 - https://ascendum.com/services/digital-services/ OK. The url is valid
+2019-04-22 11:41:10 INFO  TestBase:65 - https://ascendum.com/services/talent/ OK. The url is valid
+2019-04-22 11:41:10 INFO  TestBase:65 - https://ascendum.com/services/kps/ OK. The url is valid
+2019-04-22 11:41:11 INFO  TestBase:65 - https://ascendum.com/services/ascendum-tech-services/ OK. The url is valid
+2019-04-22 11:41:11 INFO  TestBase:65 - https://ascendum.com/products/ OK. The url is valid
+2019-04-22 11:41:11 INFO  TestBase:65 - https://ascendum.com/company/ OK. The url is valid
+2019-04-22 11:41:12 INFO  TestBase:65 - https://ascendum.com/resource-center/blog/ OK. The url is valid
+2019-04-22 11:41:12 INFO  TestBase:65 - https://ascendum.com/resource-center/case-studies/ OK. The url is valid
+2019-04-22 11:41:13 INFO  TestBase:65 - https://ascendum.com/careers/culture-and-values/ OK. The url is valid
+2019-04-22 11:41:13 INFO  TestBase:65 - https://ascendum.com/contact/ OK. The url is valid
+2019-04-22 11:41:13 INFO  TestBase:65 - https://ascendum.com/blog/resource-center/case-studies/sourcebits-ascendum-digital/ OK. The url is valid
+2019-04-22 11:41:14 INFO  TestBase:65 - https://ascendum.com/blog/resource-center/case-studies/m2m-product-engineering/ OK. The url is valid
+2019-04-22 11:41:14 INFO  TestBase:65 - https://ascendum.com/blog/resource-center/case-studies/parking-violation-enforcement/ OK. The url is valid
+2019-04-22 11:41:14 INFO  TestBase:65 - https://ascendum.com/blog/resource-center/case-studies/us-residential-mortgage-services-2/ OK. The url is valid
+2019-04-22 11:41:15 INFO  TestBase:65 - https://ascendum.com/blog/resource-center/case-studies/smart-parking-with-sensors/ OK. The url is valid
+2019-04-22 11:41:15 INFO  TestBase:65 - https://ascendum.com/blog/resource-center/case-studies/medical-billing-services/ OK. The url is valid
+2019-04-22 11:41:16 INFO  TestBase:65 - https://ascendum.com/blog/resource-center/case-studies/dna-diagnostics/ OK. The url is valid
+2019-04-22 11:41:16 INFO  TestBase:65 - https://ascendum.com/blog/resource-center/case-studies/realtime-offer-and-analytics-deployment-solution/ OK. The url is valid
+2019-04-22 11:41:16 INFO  TestBase:65 - https://ascendum.com/blog/resource-center/case-studies/mobile-solutions-for-retail-industry/ OK. The url is valid
+2019-04-22 11:41:17 INFO  TestBase:65 - https://ascendum.com/blog/resource-center/case-studies/saving-time-through-mainframe-automation-for-a-leading-insurance-company/ OK. The url is valid
+2019-04-22 11:41:17 INFO  TestBase:65 - https://ascendum.com/blog/resource-center/case-studies/mobile-application-for-claims-submission/ OK. The url is valid
+2019-04-22 11:41:18 INFO  TestBase:65 - https://ascendum.com/blog/resource-center/case-studies/quality-assurance-testing-for-mortgage-lender/ OK. The url is valid
+2019-04-22 11:41:18 INFO  TestBase:65 - https://ascendum.com/#myCarousel OK. The url is valid
+2019-04-22 11:41:19 INFO  TestBase:65 - https://ascendum.com/#myCarousel OK. The url is valid
+2019-04-22 11:41:19 INFO  TestBase:65 - https://ascendum.com/blog/news-event/ascendum-to-showcase-next-generation-chatbot-rpa-and-other-advanced-digital-transformation-opportunities-as-presenting-sponsor-of-the-2019-business-of-bots/ OK. The url is valid
+2019-04-22 11:41:20 INFO  TestBase:65 - https://ascendum.com/blog/news-event/ascendum-digital-welcomes-new-technology-director/ OK. The url is valid
+2019-04-22 11:41:20 INFO  TestBase:65 - https://ascendum.com/blog/news-event/ascendum-supports-cincinnati-youth-collaborative/ OK. The url is valid
+2019-04-22 11:41:20 INFO  TestBase:65 - https://ascendum.com/blog/news-event/ascendum-digitals-ransdell-iser-honored-with-rising-tech-awards/ OK. The url is valid
+2019-04-22 11:41:21 INFO  TestBase:65 - https://ascendum.com/blog/news-event/ascendum-participates-in-upcoming-comspark-innovation-tech-summit-2018/ OK. The url is valid
+2019-04-22 11:41:21 INFO  TestBase:65 - https://ascendum.com/# OK. The url is valid
+2019-04-22 11:41:22 INFO  TestBase:65 - https://ascendum.com/# OK. The url is valid
+2019-04-22 11:41:23 INFO  TestBase:65 - https://ascendum.com/services/digital-services/ OK. The url is valid
+2019-04-22 11:41:23 INFO  TestBase:65 - https://ascendum.com/services/talent/ OK. The url is valid
+2019-04-22 11:41:23 INFO  TestBase:65 - https://ascendum.com/services/kps/ OK. The url is valid
+2019-04-22 11:41:24 INFO  TestBase:65 - https://ascendum.com/services/ascendum-tech-services/ OK. The url is valid
+2019-04-22 11:41:24 INFO  TestBase:65 - https://ascendum.com/blog/resource-center/case-studies/mobile-application-for-claims-submission/ OK. The url is valid
+2019-04-22 11:41:25 INFO  TestBase:65 - https://ascendum.com/blog/resource-center/case-studies/xavier-university/ OK. The url is valid
+2019-04-22 11:41:25 INFO  TestBase:65 - https://ascendum.com/services/kps/ OK. The url is valid
+2019-04-22 11:41:25 INFO  TestBase:46 - http://www.nmlsconsumeraccess.org/ - URL belongs to another domain. Hence, skipping it.
+2019-04-22 11:41:26 INFO  TestBase:65 - https://ascendum.com/# OK. The url is valid
+2019-04-22 11:41:26 INFO  TestBase:65 - https://ascendum.com/#tab1 OK. The url is valid
+2019-04-22 11:41:27 INFO  TestBase:65 - https://ascendum.com/#tab2 OK. The url is valid
+2019-04-22 11:41:27 INFO  TestBase:65 - https://ascendum.com/#tab3 OK. The url is valid
+2019-04-22 11:41:27 INFO  TestBase:65 - https://ascendum.com/#tab4 OK. The url is valid
+2019-04-22 11:41:28 INFO  TestBase:65 - https://ascendum.com/industries/retail/ OK. The url is valid
+2019-04-22 11:41:28 INFO  TestBase:65 - https://ascendum.com/industries/hi-tech/ OK. The url is valid
+2019-04-22 11:41:29 INFO  TestBase:65 - https://ascendum.com/industries/healthcare/ OK. The url is valid
+2019-04-22 11:41:29 INFO  TestBase:65 - https://ascendum.com/industries/financial-services/ OK. The url is valid
+2019-04-22 11:41:29 INFO  TestBase:46 - http://www.nmlsconsumeraccess.org/ - URL belongs to another domain. Hence, skipping it.
+2019-04-22 11:41:29 INFO  TestBase:65 - https://ascendum.com/services/ascendum-tech-services/ OK. The url is valid
+2019-04-22 11:41:30 INFO  TestBase:65 - https://ascendum.com/services/quality-assurance/ OK. The url is valid
+2019-04-22 11:41:30 INFO  TestBase:65 - https://ascendum.com/services/on-demand-services/ OK. The url is valid
+2019-04-22 11:41:31 INFO  TestBase:65 - https://ascendum.com/products/ OK. The url is valid
+2019-04-22 11:41:31 INFO  TestBase:65 - https://ascendum.com/products/ OK. The url is valid
+2019-04-22 11:41:31 INFO  TestBase:65 - https://ascendum.com/products/ OK. The url is valid
+2019-04-22 11:41:32 INFO  TestBase:65 - https://ascendum.com/products/ OK. The url is valid
+2019-04-22 11:41:32 INFO  TestBase:65 - https://ascendum.com/resource-center/case-studies/ OK. The url is valid
+2019-04-22 11:41:32 INFO  TestBase:65 - https://ascendum.com/resource-center/blog/ OK. The url is valid
+2019-04-22 11:41:33 INFO  TestBase:65 - https://ascendum.com/resource-center/news-events/ OK. The url is valid
+2019-04-22 11:41:33 INFO  TestBase:65 - https://ascendum.com/# OK. The url is valid
+2019-04-22 11:41:34 INFO  TestBase:65 - https://ascendum.com/blog/resource-center/case-studies/sourcebits-ascendum-digital/ OK. The url is valid
+2019-04-22 11:41:34 INFO  TestBase:65 - https://ascendum.com/# OK. The url is valid
+2019-04-22 11:41:35 INFO  TestBase:65 - https://ascendum.com/blog/resource-center/case-studies/saving-time-through-mainframe-automation-for-a-leading-insurance-company/ OK. The url is valid
+2019-04-22 11:41:35 INFO  TestBase:65 - https://ascendum.com/# OK. The url is valid
+2019-04-22 11:41:35 INFO  TestBase:65 - https://ascendum.com/blog/resource-center/case-studies/quality-assurance-testing-for-mortgage-lender/ OK. The url is valid
+2019-04-22 11:41:36 INFO  TestBase:65 - https://ascendum.com/# OK. The url is valid
+2019-04-22 11:41:36 INFO  TestBase:65 - https://ascendum.com/blog/resource-center/case-studies/mobile-application-for-claims-submission/ OK. The url is valid
+2019-04-22 11:41:37 INFO  TestBase:65 - https://ascendum.com/# OK. The url is valid
+2019-04-22 11:41:37 INFO  TestBase:65 - https://ascendum.com/blog/resource-center/case-studies/counts-in-the-cloud/ OK. The url is valid
+2019-04-22 11:41:37 INFO  TestBase:65 - https://ascendum.com/# OK. The url is valid
+2019-04-22 11:41:38 INFO  TestBase:65 - https://ascendum.com/blog/resource-center/case-studies/handheld-tool-for-field-services/ OK. The url is valid
+2019-04-22 11:41:38 INFO  TestBase:65 - https://ascendum.com/# OK. The url is valid
+2019-04-22 11:41:39 INFO  TestBase:65 - https://ascendum.com/blog/resource-center/case-studies/smarter-vending-machines/ OK. The url is valid
+2019-04-22 11:41:39 INFO  TestBase:65 - https://ascendum.com/# OK. The url is valid
+2019-04-22 11:41:39 INFO  TestBase:65 - https://ascendum.com/blog/resource-center/case-studies/m2m-product-engineering/ OK. The url is valid
+2019-04-22 11:41:40 INFO  TestBase:65 - https://ascendum.com/# OK. The url is valid
+2019-04-22 11:41:40 INFO  TestBase:65 - https://ascendum.com/blog/resource-center/case-studies/parking-violation-enforcement/ OK. The url is valid
+2019-04-22 11:41:41 INFO  TestBase:65 - https://ascendum.com/# OK. The url is valid
+2019-04-22 11:41:41 INFO  TestBase:65 - https://ascendum.com/blog/resource-center/case-studies/garage-master-data-management/ OK. The url is valid
+2019-04-22 11:41:42 INFO  TestBase:65 - https://ascendum.com/# OK. The url is valid
+2019-04-22 11:41:42 INFO  TestBase:65 - https://ascendum.com/blog/resource-center/case-studies/smart-parking-with-sensors/ OK. The url is valid
+2019-04-22 11:41:42 INFO  TestBase:65 - https://ascendum.com/# OK. The url is valid
+2019-04-22 11:41:43 INFO  TestBase:65 - https://ascendum.com/blog/resource-center/case-studies/xavier-university/ OK. The url is valid
+2019-04-22 11:41:43 INFO  TestBase:65 - https://ascendum.com/# OK. The url is valid
+2019-04-22 11:41:44 INFO  TestBase:65 - https://ascendum.com/blog/resource-center/case-studies/dna-diagnostics/ OK. The url is valid
+2019-04-22 11:41:44 INFO  TestBase:65 - https://ascendum.com/# OK. The url is valid
+2019-04-22 11:41:45 INFO  TestBase:65 - https://ascendum.com/blog/resource-center/case-studies/realtime-offer-and-analytics-deployment-solution/ OK. The url is valid
+2019-04-22 11:41:45 INFO  TestBase:65 - https://ascendum.com/# OK. The url is valid
+2019-04-22 11:41:46 INFO  TestBase:65 - https://ascendum.com/blog/resource-center/case-studies/mobile-solutions-for-retail-industry/ OK. The url is valid
+2019-04-22 11:41:46 INFO  TestBase:65 - https://ascendum.com/# OK. The url is valid
+2019-04-22 11:41:46 INFO  TestBase:65 - https://ascendum.com/blog/resource-center/case-studies/stop-running-reports-start-analyzing-crime/ OK. The url is valid
+2019-04-22 11:41:47 INFO  TestBase:65 - https://ascendum.com/# OK. The url is valid
+2019-04-22 11:41:47 INFO  TestBase:65 - https://ascendum.com/blog/resource-center/case-studies/next-generation-extensible-and-truly-global-platform/ OK. The url is valid
+2019-04-22 11:41:48 INFO  TestBase:65 - https://ascendum.com/# OK. The url is valid
+2019-04-22 11:41:48 INFO  TestBase:65 - https://ascendum.com/blog/resource-center/case-studies/us-residential-mortgage-services-2/ OK. The url is valid
+2019-04-22 11:41:49 INFO  TestBase:65 - https://ascendum.com/# OK. The url is valid
+2019-04-22 11:41:49 INFO  TestBase:65 - https://ascendum.com/blog/resource-center/case-studies/medical-billing-services/ OK. The url is valid
+2019-04-22 11:41:50 INFO  TestBase:65 - https://ascendum.com/# OK. The url is valid
+2019-04-22 11:41:50 INFO  TestBase:65 - https://ascendum.com/blog/resource-center/case-studies/us-residential-mortgage-services-1/ OK. The url is valid
+2019-04-22 11:41:51 INFO  TestBase:65 - https://ascendum.com/# OK. The url is valid
+2019-04-22 11:41:51 INFO  TestBase:65 - https://ascendum.com/blog/resource-center/case-studies/virtual-assistance-services/ OK. The url is valid
+2019-04-22 11:41:51 INFO  TestBase:65 - https://ascendum.com/# OK. The url is valid
+2019-04-22 11:41:52 INFO  TestBase:65 - https://ascendum.com/blog/resource-center/case-studies/title-processing-services/ OK. The url is valid
+2019-04-22 11:41:52 INFO  TestBase:65 - https://ascendum.com/ OK. The url is valid
+2019-04-22 11:41:52 INFO  TestBase:46 - mailto:info@ascendum.com - URL belongs to another domain. Hence, skipping it.
+2019-04-22 11:41:52 INFO  TestBase:46 - mailto:info@ascendum.com - URL belongs to another domain. Hence, skipping it.
+2019-04-22 11:41:52 INFO  TestBase:46 - http://www.voraventures.com/ - URL belongs to another domain. Hence, skipping it.
+2019-04-22 11:41:53 INFO  TestBase:65 - https://ascendum.com/ OK. The url is valid
+2019-04-22 11:41:53 INFO  TestBase:65 - https://ascendum.com/company/ OK. The url is valid
+2019-04-22 11:41:54 INFO  TestBase:65 - https://ascendum.com/careers/culture-and-values/ OK. The url is valid
+2019-04-22 11:41:54 INFO  TestBase:65 - https://ascendum.com/contact/ OK. The url is valid
+2019-04-22 11:41:54 INFO  TestBase:65 - https://ascendum.com/privacy-trademarks/ OK. The url is valid
+2019-04-22 11:41:55 INFO  TestBase:65 - https://ascendum.com/terms-of-use/ OK. The url is valid
+2019-04-22 11:41:55 INFO  TestBase:65 - https://ascendum.com/services/ascendum-tech-services/ OK. The url is valid
+2019-04-22 11:41:56 INFO  TestBase:65 - https://ascendum.com/services/quality-assurance/ OK. The url is valid
+2019-04-22 11:41:56 INFO  TestBase:65 - https://ascendum.com/services/on-demand-services/ OK. The url is valid
+2019-04-22 11:41:57 INFO  TestBase:65 - https://ascendum.com/industries/retail/ OK. The url is valid
+2019-04-22 11:41:57 INFO  TestBase:65 - https://ascendum.com/industries/hi-tech/ OK. The url is valid
+2019-04-22 11:41:57 INFO  TestBase:65 - https://ascendum.com/industries/financial-services/ OK. The url is valid
+2019-04-22 11:41:58 INFO  TestBase:65 - https://ascendum.com/industries/healthcare/ OK. The url is valid
+2019-04-22 11:41:58 INFO  TestBase:65 - https://ascendum.com/practices/business-transformation-btx/ OK. The url is valid
+2019-04-22 11:41:58 INFO  TestBase:65 - https://ascendum.com/practices/internet-of-things/ OK. The url is valid
+2019-04-22 11:41:59 INFO  TestBase:65 - https://ascendum.com/resource-center/case-studies/ OK. The url is valid
+2019-04-22 11:41:59 INFO  TestBase:65 - https://ascendum.com/resource-center/news-events/ OK. The url is valid
+2019-04-22 11:41:59 INFO  TestBase:46 - https://www.facebook.com/Ascendum - URL belongs to another domain. Hence, skipping it.
+2019-04-22 11:41:59 INFO  TestBase:46 - http://www.linkedin.com/company/ascendum-solutions - URL belongs to another domain. Hence, skipping it.
+2019-04-22 11:41:59 INFO  TestBase:46 - https://twitter.com/ascendum - URL belongs to another domain. Hence, skipping it.
+2019-04-22 11:41:59 INFO  TestBase:46 - http://www.youtube.com/user/AscendumSolutions - URL belongs to another domain. Hence, skipping it.
+2019-04-22 11:41:59 INFO  TestBase:46 - https://plus.google.com/+AscendumSolutionsLLCCincinnati/about - URL belongs to another domain. Hence, skipping it.
+2019-04-22 11:41:59 INFO  TestBase:46 - mailto:info@ascendum.com - URL belongs to another domain. Hence, skipping it.
+2019-04-22 11:41:59 INFO  TestBase:46 - mailto:info@ascendum.com - URL belongs to another domain. Hence, skipping it.
+2019-04-22 13:40:51 INFO  TestBase:54 - Creating the object of chrome
+2019-04-22 13:40:55 INFO  TestBase:66 - Navigating to https://www.ascendum.com
+2019-04-22 13:40:55 INFO  TestBase:27 - The webelement : Services is present on the web page.
+2019-04-22 13:40:56 INFO  TestBase:27 - The webelement : Resources is present on the web page.
+2019-04-22 13:40:56 INFO  TestBase:27 - The webelement : Careers is present on the web page.
+2019-04-22 13:40:56 INFO  TestBase:27 - The webelement : Contact is present on the web page.
+2019-04-22 13:40:56 INFO  TestBase:65 - https://ascendum.com/company/ OK. The url is valid
+2019-04-22 13:40:57 INFO  TestBase:65 - https://ascendum.com/resource-center/case-studies/ OK. The url is valid
+2019-04-22 13:40:57 INFO  TestBase:65 - https://ascendum.com/careers/culture-and-values/ OK. The url is valid
+2019-04-22 13:40:57 INFO  TestBase:65 - https://ascendum.com/contact/ OK. The url is valid
+2019-04-22 13:40:58 INFO  TestBase:65 - https://ascendum.com/ OK. The url is valid
+2019-04-22 13:40:58 INFO  TestBase:65 - https://ascendum.com/services/ OK. The url is valid
+2019-04-22 13:40:59 INFO  TestBase:65 - https://ascendum.com/services/ OK. The url is valid
+2019-04-22 13:40:59 INFO  TestBase:65 - https://ascendum.com/services/digital-services/ OK. The url is valid
+2019-04-22 13:41:00 INFO  TestBase:65 - https://ascendum.com/services/talent/ OK. The url is valid
+2019-04-22 13:41:00 INFO  TestBase:65 - https://ascendum.com/services/kps/ OK. The url is valid
+2019-04-22 13:41:01 INFO  TestBase:65 - https://ascendum.com/services/ascendum-tech-services/ OK. The url is valid
+2019-04-22 13:41:01 INFO  TestBase:65 - https://ascendum.com/products/ OK. The url is valid
+2019-04-22 13:41:02 INFO  TestBase:65 - https://ascendum.com/company/ OK. The url is valid
+2019-04-22 13:41:02 INFO  TestBase:65 - https://ascendum.com/resource-center/blog/ OK. The url is valid
+2019-04-22 13:41:02 INFO  TestBase:65 - https://ascendum.com/resource-center/case-studies/ OK. The url is valid
+2019-04-22 13:41:03 INFO  TestBase:65 - https://ascendum.com/careers/culture-and-values/ OK. The url is valid
+2019-04-22 13:41:03 INFO  TestBase:65 - https://ascendum.com/contact/ OK. The url is valid
+2019-04-22 13:41:03 INFO  TestBase:65 - https://ascendum.com/blog/resource-center/case-studies/sourcebits-ascendum-digital/ OK. The url is valid
+2019-04-22 13:41:04 INFO  TestBase:65 - https://ascendum.com/blog/resource-center/case-studies/m2m-product-engineering/ OK. The url is valid
+2019-04-22 13:41:04 INFO  TestBase:65 - https://ascendum.com/blog/resource-center/case-studies/parking-violation-enforcement/ OK. The url is valid
+2019-04-22 13:41:05 INFO  TestBase:65 - https://ascendum.com/blog/resource-center/case-studies/us-residential-mortgage-services-2/ OK. The url is valid
+2019-04-22 13:41:05 INFO  TestBase:65 - https://ascendum.com/blog/resource-center/case-studies/smart-parking-with-sensors/ OK. The url is valid
+2019-04-22 13:41:05 INFO  TestBase:65 - https://ascendum.com/blog/resource-center/case-studies/medical-billing-services/ OK. The url is valid
+2019-04-22 13:41:06 INFO  TestBase:65 - https://ascendum.com/blog/resource-center/case-studies/dna-diagnostics/ OK. The url is valid
+2019-04-22 13:41:06 INFO  TestBase:65 - https://ascendum.com/blog/resource-center/case-studies/realtime-offer-and-analytics-deployment-solution/ OK. The url is valid
+2019-04-22 13:41:07 INFO  TestBase:65 - https://ascendum.com/blog/resource-center/case-studies/mobile-solutions-for-retail-industry/ OK. The url is valid
+2019-04-22 13:41:07 INFO  TestBase:65 - https://ascendum.com/blog/resource-center/case-studies/saving-time-through-mainframe-automation-for-a-leading-insurance-company/ OK. The url is valid
+2019-04-22 13:41:07 INFO  TestBase:65 - https://ascendum.com/blog/resource-center/case-studies/mobile-application-for-claims-submission/ OK. The url is valid
+2019-04-22 13:41:08 INFO  TestBase:65 - https://ascendum.com/blog/resource-center/case-studies/quality-assurance-testing-for-mortgage-lender/ OK. The url is valid
+2019-04-22 13:41:08 INFO  TestBase:65 - https://ascendum.com/#myCarousel OK. The url is valid
+2019-04-22 13:41:09 INFO  TestBase:65 - https://ascendum.com/#myCarousel OK. The url is valid
+2019-04-22 13:41:09 INFO  TestBase:65 - https://ascendum.com/blog/news-event/ascendum-to-showcase-next-generation-chatbot-rpa-and-other-advanced-digital-transformation-opportunities-as-presenting-sponsor-of-the-2019-business-of-bots/ OK. The url is valid
+2019-04-22 13:41:09 INFO  TestBase:65 - https://ascendum.com/blog/news-event/ascendum-digital-welcomes-new-technology-director/ OK. The url is valid
+2019-04-22 13:41:10 INFO  TestBase:65 - https://ascendum.com/blog/news-event/ascendum-supports-cincinnati-youth-collaborative/ OK. The url is valid
+2019-04-22 13:41:10 INFO  TestBase:65 - https://ascendum.com/blog/news-event/ascendum-digitals-ransdell-iser-honored-with-rising-tech-awards/ OK. The url is valid
+2019-04-22 13:41:10 INFO  TestBase:65 - https://ascendum.com/blog/news-event/ascendum-participates-in-upcoming-comspark-innovation-tech-summit-2018/ OK. The url is valid
+2019-04-22 13:41:11 INFO  TestBase:65 - https://ascendum.com/# OK. The url is valid
+2019-04-22 13:41:11 INFO  TestBase:65 - https://ascendum.com/# OK. The url is valid
+2019-04-22 13:41:12 INFO  TestBase:65 - https://ascendum.com/services/digital-services/ OK. The url is valid
+2019-04-22 13:41:12 INFO  TestBase:65 - https://ascendum.com/services/talent/ OK. The url is valid
+2019-04-22 13:41:13 INFO  TestBase:65 - https://ascendum.com/services/kps/ OK. The url is valid
+2019-04-22 13:41:13 INFO  TestBase:65 - https://ascendum.com/services/ascendum-tech-services/ OK. The url is valid
+2019-04-22 13:41:13 INFO  TestBase:65 - https://ascendum.com/blog/resource-center/case-studies/mobile-application-for-claims-submission/ OK. The url is valid
+2019-04-22 13:41:14 INFO  TestBase:65 - https://ascendum.com/blog/resource-center/case-studies/xavier-university/ OK. The url is valid
+2019-04-22 13:41:14 INFO  TestBase:65 - https://ascendum.com/services/kps/ OK. The url is valid
+2019-04-22 13:41:14 INFO  TestBase:46 - http://www.nmlsconsumeraccess.org/ - URL belongs to another domain. Hence, skipping it.
+2019-04-22 13:41:15 INFO  TestBase:65 - https://ascendum.com/# OK. The url is valid
+2019-04-22 13:41:15 INFO  TestBase:65 - https://ascendum.com/#tab1 OK. The url is valid
+2019-04-22 13:41:16 INFO  TestBase:65 - https://ascendum.com/#tab2 OK. The url is valid
+2019-04-22 13:41:16 INFO  TestBase:65 - https://ascendum.com/#tab3 OK. The url is valid
+2019-04-22 13:41:16 INFO  TestBase:65 - https://ascendum.com/#tab4 OK. The url is valid
+2019-04-22 13:41:17 INFO  TestBase:65 - https://ascendum.com/industries/retail/ OK. The url is valid
+2019-04-22 13:41:17 INFO  TestBase:65 - https://ascendum.com/industries/hi-tech/ OK. The url is valid
+2019-04-22 13:41:18 INFO  TestBase:65 - https://ascendum.com/industries/healthcare/ OK. The url is valid
+2019-04-22 13:41:18 INFO  TestBase:65 - https://ascendum.com/industries/financial-services/ OK. The url is valid
+2019-04-22 13:41:18 INFO  TestBase:46 - http://www.nmlsconsumeraccess.org/ - URL belongs to another domain. Hence, skipping it.
+2019-04-22 13:41:18 INFO  TestBase:65 - https://ascendum.com/services/ascendum-tech-services/ OK. The url is valid
+2019-04-22 13:41:19 INFO  TestBase:65 - https://ascendum.com/services/quality-assurance/ OK. The url is valid
+2019-04-22 13:41:19 INFO  TestBase:65 - https://ascendum.com/services/on-demand-services/ OK. The url is valid
+2019-04-22 13:41:19 INFO  TestBase:65 - https://ascendum.com/products/ OK. The url is valid
+2019-04-22 13:41:20 INFO  TestBase:65 - https://ascendum.com/products/ OK. The url is valid
+2019-04-22 13:41:20 INFO  TestBase:65 - https://ascendum.com/products/ OK. The url is valid
+2019-04-22 13:41:20 INFO  TestBase:65 - https://ascendum.com/products/ OK. The url is valid
+2019-04-22 13:41:21 INFO  TestBase:65 - https://ascendum.com/resource-center/case-studies/ OK. The url is valid
+2019-04-22 13:41:21 INFO  TestBase:65 - https://ascendum.com/resource-center/blog/ OK. The url is valid
+2019-04-22 13:41:22 INFO  TestBase:65 - https://ascendum.com/resource-center/news-events/ OK. The url is valid
+2019-04-22 13:41:22 INFO  TestBase:65 - https://ascendum.com/# OK. The url is valid
+2019-04-22 13:41:22 INFO  TestBase:65 - https://ascendum.com/blog/resource-center/case-studies/sourcebits-ascendum-digital/ OK. The url is valid
+2019-04-22 13:41:23 INFO  TestBase:65 - https://ascendum.com/# OK. The url is valid
+2019-04-22 13:41:23 INFO  TestBase:65 - https://ascendum.com/blog/resource-center/case-studies/saving-time-through-mainframe-automation-for-a-leading-insurance-company/ OK. The url is valid
+2019-04-22 13:41:24 INFO  TestBase:65 - https://ascendum.com/# OK. The url is valid
+2019-04-22 13:41:24 INFO  TestBase:65 - https://ascendum.com/blog/resource-center/case-studies/quality-assurance-testing-for-mortgage-lender/ OK. The url is valid
+2019-04-22 13:41:25 INFO  TestBase:65 - https://ascendum.com/# OK. The url is valid
+2019-04-22 13:41:25 INFO  TestBase:65 - https://ascendum.com/blog/resource-center/case-studies/mobile-application-for-claims-submission/ OK. The url is valid
+2019-04-22 13:41:25 INFO  TestBase:65 - https://ascendum.com/# OK. The url is valid
+2019-04-22 13:41:26 INFO  TestBase:65 - https://ascendum.com/blog/resource-center/case-studies/counts-in-the-cloud/ OK. The url is valid
+2019-04-22 13:41:26 INFO  TestBase:65 - https://ascendum.com/# OK. The url is valid
+2019-04-22 13:41:27 INFO  TestBase:65 - https://ascendum.com/blog/resource-center/case-studies/handheld-tool-for-field-services/ OK. The url is valid
+2019-04-22 13:41:27 INFO  TestBase:65 - https://ascendum.com/# OK. The url is valid
+2019-04-22 13:41:28 INFO  TestBase:65 - https://ascendum.com/blog/resource-center/case-studies/smarter-vending-machines/ OK. The url is valid
+2019-04-22 13:41:28 INFO  TestBase:65 - https://ascendum.com/# OK. The url is valid
+2019-04-22 13:41:28 INFO  TestBase:65 - https://ascendum.com/blog/resource-center/case-studies/m2m-product-engineering/ OK. The url is valid
+2019-04-22 13:41:29 INFO  TestBase:65 - https://ascendum.com/# OK. The url is valid
+2019-04-22 13:41:29 INFO  TestBase:65 - https://ascendum.com/blog/resource-center/case-studies/parking-violation-enforcement/ OK. The url is valid
+2019-04-22 13:41:30 INFO  TestBase:65 - https://ascendum.com/# OK. The url is valid
+2019-04-22 13:41:30 INFO  TestBase:65 - https://ascendum.com/blog/resource-center/case-studies/garage-master-data-management/ OK. The url is valid
+2019-04-22 13:41:30 INFO  TestBase:65 - https://ascendum.com/# OK. The url is valid
+2019-04-22 13:41:31 INFO  TestBase:65 - https://ascendum.com/blog/resource-center/case-studies/smart-parking-with-sensors/ OK. The url is valid
+2019-04-22 13:41:31 INFO  TestBase:65 - https://ascendum.com/# OK. The url is valid
+2019-04-22 13:41:32 INFO  TestBase:65 - https://ascendum.com/blog/resource-center/case-studies/xavier-university/ OK. The url is valid
+2019-04-22 13:41:32 INFO  TestBase:65 - https://ascendum.com/# OK. The url is valid
+2019-04-22 13:41:33 INFO  TestBase:65 - https://ascendum.com/blog/resource-center/case-studies/dna-diagnostics/ OK. The url is valid
+2019-04-22 13:41:33 INFO  TestBase:65 - https://ascendum.com/# OK. The url is valid
+2019-04-22 13:41:33 INFO  TestBase:65 - https://ascendum.com/blog/resource-center/case-studies/realtime-offer-and-analytics-deployment-solution/ OK. The url is valid
+2019-04-22 13:41:34 INFO  TestBase:65 - https://ascendum.com/# OK. The url is valid
+2019-04-22 13:41:34 INFO  TestBase:65 - https://ascendum.com/blog/resource-center/case-studies/mobile-solutions-for-retail-industry/ OK. The url is valid
+2019-04-22 13:41:35 INFO  TestBase:65 - https://ascendum.com/# OK. The url is valid
+2019-04-22 13:41:35 INFO  TestBase:65 - https://ascendum.com/blog/resource-center/case-studies/stop-running-reports-start-analyzing-crime/ OK. The url is valid
+2019-04-22 13:41:36 INFO  TestBase:65 - https://ascendum.com/# OK. The url is valid
+2019-04-22 13:41:36 INFO  TestBase:65 - https://ascendum.com/blog/resource-center/case-studies/next-generation-extensible-and-truly-global-platform/ OK. The url is valid
+2019-04-22 13:41:36 INFO  TestBase:65 - https://ascendum.com/# OK. The url is valid
+2019-04-22 13:41:37 INFO  TestBase:65 - https://ascendum.com/blog/resource-center/case-studies/us-residential-mortgage-services-2/ OK. The url is valid
+2019-04-22 13:41:37 INFO  TestBase:65 - https://ascendum.com/# OK. The url is valid
+2019-04-22 13:41:38 INFO  TestBase:65 - https://ascendum.com/blog/resource-center/case-studies/medical-billing-services/ OK. The url is valid
+2019-04-22 13:41:38 INFO  TestBase:65 - https://ascendum.com/# OK. The url is valid
+2019-04-22 13:41:38 INFO  TestBase:65 - https://ascendum.com/blog/resource-center/case-studies/us-residential-mortgage-services-1/ OK. The url is valid
+2019-04-22 13:41:39 INFO  TestBase:65 - https://ascendum.com/# OK. The url is valid
+2019-04-22 13:41:39 INFO  TestBase:65 - https://ascendum.com/blog/resource-center/case-studies/virtual-assistance-services/ OK. The url is valid
+2019-04-22 13:41:40 INFO  TestBase:65 - https://ascendum.com/# OK. The url is valid
+2019-04-22 13:41:40 INFO  TestBase:65 - https://ascendum.com/blog/resource-center/case-studies/title-processing-services/ OK. The url is valid
+2019-04-22 13:41:41 INFO  TestBase:65 - https://ascendum.com/ OK. The url is valid
+2019-04-22 13:41:41 INFO  TestBase:46 - mailto:info@ascendum.com - URL belongs to another domain. Hence, skipping it.
+2019-04-22 13:41:41 INFO  TestBase:46 - mailto:info@ascendum.com - URL belongs to another domain. Hence, skipping it.
+2019-04-22 13:41:41 INFO  TestBase:46 - http://www.voraventures.com/ - URL belongs to another domain. Hence, skipping it.
+2019-04-22 13:41:41 INFO  TestBase:65 - https://ascendum.com/ OK. The url is valid
+2019-04-22 13:41:41 INFO  TestBase:65 - https://ascendum.com/company/ OK. The url is valid
+2019-04-22 13:41:42 INFO  TestBase:65 - https://ascendum.com/careers/culture-and-values/ OK. The url is valid
+2019-04-22 13:41:42 INFO  TestBase:65 - https://ascendum.com/contact/ OK. The url is valid
+2019-04-22 13:41:43 INFO  TestBase:65 - https://ascendum.com/privacy-trademarks/ OK. The url is valid
+2019-04-22 13:41:43 INFO  TestBase:65 - https://ascendum.com/terms-of-use/ OK. The url is valid
+2019-04-22 13:41:43 INFO  TestBase:65 - https://ascendum.com/services/ascendum-tech-services/ OK. The url is valid
+2019-04-22 13:41:44 INFO  TestBase:65 - https://ascendum.com/services/quality-assurance/ OK. The url is valid
+2019-04-22 13:41:44 INFO  TestBase:65 - https://ascendum.com/services/on-demand-services/ OK. The url is valid
+2019-04-22 13:41:45 INFO  TestBase:65 - https://ascendum.com/industries/retail/ OK. The url is valid
+2019-04-22 13:41:45 INFO  TestBase:65 - https://ascendum.com/industries/hi-tech/ OK. The url is valid
+2019-04-22 13:41:45 INFO  TestBase:65 - https://ascendum.com/industries/financial-services/ OK. The url is valid
+2019-04-22 13:41:46 INFO  TestBase:65 - https://ascendum.com/industries/healthcare/ OK. The url is valid
+2019-04-22 13:41:46 INFO  TestBase:65 - https://ascendum.com/practices/business-transformation-btx/ OK. The url is valid
+2019-04-22 13:41:46 INFO  TestBase:65 - https://ascendum.com/practices/internet-of-things/ OK. The url is valid
+2019-04-22 13:41:47 INFO  TestBase:65 - https://ascendum.com/resource-center/case-studies/ OK. The url is valid
+2019-04-22 13:41:47 INFO  TestBase:65 - https://ascendum.com/resource-center/news-events/ OK. The url is valid
+2019-04-22 13:41:47 INFO  TestBase:46 - https://www.facebook.com/Ascendum - URL belongs to another domain. Hence, skipping it.
+2019-04-22 13:41:47 INFO  TestBase:46 - http://www.linkedin.com/company/ascendum-solutions - URL belongs to another domain. Hence, skipping it.
+2019-04-22 13:41:47 INFO  TestBase:46 - https://twitter.com/ascendum - URL belongs to another domain. Hence, skipping it.
+2019-04-22 13:41:47 INFO  TestBase:46 - http://www.youtube.com/user/AscendumSolutions - URL belongs to another domain. Hence, skipping it.
+2019-04-22 13:41:47 INFO  TestBase:46 - https://plus.google.com/+AscendumSolutionsLLCCincinnati/about - URL belongs to another domain. Hence, skipping it.
+2019-04-22 13:41:47 INFO  TestBase:46 - mailto:info@ascendum.com - URL belongs to another domain. Hence, skipping it.
+2019-04-22 13:41:47 INFO  TestBase:46 - mailto:info@ascendum.com - URL belongs to another domain. Hence, skipping it.
+2019-04-22 15:49:56 INFO  TestBase:54 - Creating the object of chrome
+2019-04-22 15:50:01 INFO  TestBase:66 - Navigating to https://www.ascendum.com
+2019-04-22 15:50:01 INFO  TestBase:27 - The webelement : Services is present on the web page.
+2019-04-22 15:50:01 INFO  TestBase:27 - The webelement : Resources is present on the web page.
+2019-04-22 15:50:02 INFO  TestBase:27 - The webelement : Careers is present on the web page.
+2019-04-22 15:50:02 INFO  TestBase:27 - The webelement : Contact is present on the web page.
+2019-04-22 15:50:02 INFO  TestBase:66 - https://ascendum.com/company/ OK. The url is valid
+2019-04-22 15:50:03 INFO  TestBase:66 - https://ascendum.com/resource-center/case-studies/ OK. The url is valid
+2019-04-22 15:50:03 INFO  TestBase:66 - https://ascendum.com/careers/culture-and-values/ OK. The url is valid
+2019-04-22 15:50:04 INFO  TestBase:66 - https://ascendum.com/contact/ OK. The url is valid
+2019-04-22 15:50:04 INFO  TestBase:66 - https://ascendum.com/ OK. The url is valid
+2019-04-22 15:50:05 INFO  TestBase:66 - https://ascendum.com/services/ OK. The url is valid
+2019-04-22 15:50:05 INFO  TestBase:66 - https://ascendum.com/services/ OK. The url is valid
+2019-04-22 15:50:06 INFO  TestBase:66 - https://ascendum.com/services/digital-services/ OK. The url is valid
+2019-04-22 15:50:06 INFO  TestBase:66 - https://ascendum.com/services/talent/ OK. The url is valid
+2019-04-22 15:50:07 INFO  TestBase:66 - https://ascendum.com/services/kps/ OK. The url is valid
+2019-04-22 15:50:07 INFO  TestBase:66 - https://ascendum.com/services/ascendum-tech-services/ OK. The url is valid
+2019-04-22 15:50:08 INFO  TestBase:66 - https://ascendum.com/products/ OK. The url is valid
+2019-04-22 15:50:08 INFO  TestBase:66 - https://ascendum.com/company/ OK. The url is valid
+2019-04-22 15:50:09 INFO  TestBase:66 - https://ascendum.com/resource-center/blog/ OK. The url is valid
+2019-04-22 15:50:09 INFO  TestBase:66 - https://ascendum.com/resource-center/case-studies/ OK. The url is valid
+2019-04-22 15:50:10 INFO  TestBase:66 - https://ascendum.com/careers/culture-and-values/ OK. The url is valid
+2019-04-22 15:50:10 INFO  TestBase:66 - https://ascendum.com/contact/ OK. The url is valid
+2019-04-22 15:50:11 INFO  TestBase:66 - https://ascendum.com/blog/resource-center/case-studies/sourcebits-ascendum-digital/ OK. The url is valid
+2019-04-22 15:50:11 INFO  TestBase:66 - https://ascendum.com/blog/resource-center/case-studies/m2m-product-engineering/ OK. The url is valid
+2019-04-22 15:50:12 INFO  TestBase:66 - https://ascendum.com/blog/resource-center/case-studies/parking-violation-enforcement/ OK. The url is valid
+2019-04-22 15:50:12 INFO  TestBase:66 - https://ascendum.com/blog/resource-center/case-studies/us-residential-mortgage-services-2/ OK. The url is valid
+2019-04-22 15:50:13 INFO  TestBase:66 - https://ascendum.com/blog/resource-center/case-studies/smart-parking-with-sensors/ OK. The url is valid
+2019-04-22 15:50:13 INFO  TestBase:66 - https://ascendum.com/blog/resource-center/case-studies/medical-billing-services/ OK. The url is valid
+2019-04-22 15:50:14 INFO  TestBase:66 - https://ascendum.com/blog/resource-center/case-studies/dna-diagnostics/ OK. The url is valid
+2019-04-22 15:50:14 INFO  TestBase:66 - https://ascendum.com/blog/resource-center/case-studies/realtime-offer-and-analytics-deployment-solution/ OK. The url is valid
+2019-04-22 15:50:15 INFO  TestBase:66 - https://ascendum.com/blog/resource-center/case-studies/mobile-solutions-for-retail-industry/ OK. The url is valid
+2019-04-22 15:50:15 INFO  TestBase:66 - https://ascendum.com/blog/resource-center/case-studies/saving-time-through-mainframe-automation-for-a-leading-insurance-company/ OK. The url is valid
+2019-04-22 15:50:16 INFO  TestBase:66 - https://ascendum.com/blog/resource-center/case-studies/mobile-application-for-claims-submission/ OK. The url is valid
+2019-04-22 15:50:16 INFO  TestBase:66 - https://ascendum.com/blog/resource-center/case-studies/quality-assurance-testing-for-mortgage-lender/ OK. The url is valid
+2019-04-22 15:50:17 INFO  TestBase:66 - https://ascendum.com/#myCarousel OK. The url is valid
+2019-04-22 15:50:17 INFO  TestBase:66 - https://ascendum.com/#myCarousel OK. The url is valid
+2019-04-22 15:50:17 INFO  TestBase:66 - https://ascendum.com/blog/news-event/ascendum-to-showcase-next-generation-chatbot-rpa-and-other-advanced-digital-transformation-opportunities-as-presenting-sponsor-of-the-2019-business-of-bots/ OK. The url is valid
+2019-04-22 15:50:18 INFO  TestBase:66 - https://ascendum.com/blog/news-event/ascendum-digital-welcomes-new-technology-director/ OK. The url is valid
+2019-04-22 15:50:18 INFO  TestBase:66 - https://ascendum.com/blog/news-event/ascendum-supports-cincinnati-youth-collaborative/ OK. The url is valid
+2019-04-22 15:50:19 INFO  TestBase:66 - https://ascendum.com/blog/news-event/ascendum-digitals-ransdell-iser-honored-with-rising-tech-awards/ OK. The url is valid
+2019-04-22 15:50:19 INFO  TestBase:66 - https://ascendum.com/blog/news-event/ascendum-participates-in-upcoming-comspark-innovation-tech-summit-2018/ OK. The url is valid
+2019-04-22 15:50:20 INFO  TestBase:66 - https://ascendum.com/# OK. The url is valid
+2019-04-22 15:50:21 INFO  TestBase:66 - https://ascendum.com/# OK. The url is valid
+2019-04-22 15:50:21 INFO  TestBase:66 - https://ascendum.com/services/digital-services/ OK. The url is valid
+2019-04-22 15:50:22 INFO  TestBase:66 - https://ascendum.com/services/talent/ OK. The url is valid
+2019-04-22 15:50:22 INFO  TestBase:66 - https://ascendum.com/services/kps/ OK. The url is valid
+2019-04-22 15:50:23 INFO  TestBase:66 - https://ascendum.com/services/ascendum-tech-services/ OK. The url is valid
+2019-04-22 15:50:23 INFO  TestBase:66 - https://ascendum.com/blog/resource-center/case-studies/mobile-application-for-claims-submission/ OK. The url is valid
+2019-04-22 15:50:24 INFO  TestBase:66 - https://ascendum.com/blog/resource-center/case-studies/xavier-university/ OK. The url is valid
+2019-04-22 15:50:24 INFO  TestBase:66 - https://ascendum.com/services/kps/ OK. The url is valid
+2019-04-22 15:50:24 INFO  TestBase:47 - http://www.nmlsconsumeraccess.org/ - URL belongs to another domain. Hence, skipping it.
+2019-04-22 15:50:25 INFO  TestBase:66 - https://ascendum.com/# OK. The url is valid
+2019-04-22 15:50:25 INFO  TestBase:66 - https://ascendum.com/#tab1 OK. The url is valid
+2019-04-22 15:50:26 INFO  TestBase:66 - https://ascendum.com/#tab2 OK. The url is valid
+2019-04-22 15:50:26 INFO  TestBase:66 - https://ascendum.com/#tab3 OK. The url is valid
+2019-04-22 15:50:27 INFO  TestBase:66 - https://ascendum.com/#tab4 OK. The url is valid
+2019-04-22 15:50:27 INFO  TestBase:66 - https://ascendum.com/industries/retail/ OK. The url is valid
+2019-04-22 15:50:28 INFO  TestBase:66 - https://ascendum.com/industries/hi-tech/ OK. The url is valid
+2019-04-22 15:50:28 INFO  TestBase:66 - https://ascendum.com/industries/healthcare/ OK. The url is valid
+2019-04-22 15:50:29 INFO  TestBase:66 - https://ascendum.com/industries/financial-services/ OK. The url is valid
+2019-04-22 15:50:29 INFO  TestBase:47 - http://www.nmlsconsumeraccess.org/ - URL belongs to another domain. Hence, skipping it.
+2019-04-22 15:50:29 INFO  TestBase:66 - https://ascendum.com/services/ascendum-tech-services/ OK. The url is valid
+2019-04-22 15:50:30 INFO  TestBase:66 - https://ascendum.com/services/quality-assurance/ OK. The url is valid
+2019-04-22 15:50:30 INFO  TestBase:66 - https://ascendum.com/services/on-demand-services/ OK. The url is valid
+2019-04-22 15:50:31 INFO  TestBase:66 - https://ascendum.com/products/ OK. The url is valid
+2019-04-22 15:50:31 INFO  TestBase:66 - https://ascendum.com/products/ OK. The url is valid
+2019-04-22 15:50:31 INFO  TestBase:66 - https://ascendum.com/products/ OK. The url is valid
+2019-04-22 15:50:32 INFO  TestBase:66 - https://ascendum.com/products/ OK. The url is valid
+2019-04-22 15:50:32 INFO  TestBase:66 - https://ascendum.com/resource-center/case-studies/ OK. The url is valid
+2019-04-22 15:50:33 INFO  TestBase:66 - https://ascendum.com/resource-center/blog/ OK. The url is valid
+2019-04-22 15:50:33 INFO  TestBase:66 - https://ascendum.com/resource-center/news-events/ OK. The url is valid
+2019-04-22 15:50:34 INFO  TestBase:66 - https://ascendum.com/# OK. The url is valid
+2019-04-22 15:50:34 INFO  TestBase:66 - https://ascendum.com/blog/resource-center/case-studies/sourcebits-ascendum-digital/ OK. The url is valid
+2019-04-22 15:50:35 INFO  TestBase:66 - https://ascendum.com/# OK. The url is valid
+2019-04-22 15:50:35 INFO  TestBase:66 - https://ascendum.com/blog/resource-center/case-studies/saving-time-through-mainframe-automation-for-a-leading-insurance-company/ OK. The url is valid
+2019-04-22 15:50:36 INFO  TestBase:66 - https://ascendum.com/# OK. The url is valid
+2019-04-22 15:50:36 INFO  TestBase:66 - https://ascendum.com/blog/resource-center/case-studies/quality-assurance-testing-for-mortgage-lender/ OK. The url is valid
+2019-04-22 15:50:37 INFO  TestBase:66 - https://ascendum.com/# OK. The url is valid
+2019-04-22 15:50:37 INFO  TestBase:66 - https://ascendum.com/blog/resource-center/case-studies/mobile-application-for-claims-submission/ OK. The url is valid
+2019-04-22 15:50:38 INFO  TestBase:66 - https://ascendum.com/# OK. The url is valid
+2019-04-22 15:50:38 INFO  TestBase:66 - https://ascendum.com/blog/resource-center/case-studies/counts-in-the-cloud/ OK. The url is valid
+2019-04-22 15:50:39 INFO  TestBase:66 - https://ascendum.com/# OK. The url is valid
+2019-04-22 15:50:39 INFO  TestBase:66 - https://ascendum.com/blog/resource-center/case-studies/handheld-tool-for-field-services/ OK. The url is valid
+2019-04-22 15:50:40 INFO  TestBase:66 - https://ascendum.com/# OK. The url is valid
+2019-04-22 15:50:40 INFO  TestBase:66 - https://ascendum.com/blog/resource-center/case-studies/smarter-vending-machines/ OK. The url is valid
+2019-04-22 15:50:41 INFO  TestBase:66 - https://ascendum.com/# OK. The url is valid
+2019-04-22 15:50:41 INFO  TestBase:66 - https://ascendum.com/blog/resource-center/case-studies/m2m-product-engineering/ OK. The url is valid
+2019-04-22 15:50:41 INFO  TestBase:66 - https://ascendum.com/# OK. The url is valid
+2019-04-22 15:50:42 INFO  TestBase:66 - https://ascendum.com/blog/resource-center/case-studies/parking-violation-enforcement/ OK. The url is valid
+2019-04-22 15:50:43 INFO  TestBase:66 - https://ascendum.com/# OK. The url is valid
+2019-04-22 15:50:43 INFO  TestBase:66 - https://ascendum.com/blog/resource-center/case-studies/garage-master-data-management/ OK. The url is valid
+2019-04-22 15:50:43 INFO  TestBase:66 - https://ascendum.com/# OK. The url is valid
+2019-04-22 15:50:44 INFO  TestBase:66 - https://ascendum.com/blog/resource-center/case-studies/smart-parking-with-sensors/ OK. The url is valid
+2019-04-22 15:50:44 INFO  TestBase:66 - https://ascendum.com/# OK. The url is valid
+2019-04-22 15:50:45 INFO  TestBase:66 - https://ascendum.com/blog/resource-center/case-studies/xavier-university/ OK. The url is valid
+2019-04-22 15:50:45 INFO  TestBase:66 - https://ascendum.com/# OK. The url is valid
+2019-04-22 15:50:46 INFO  TestBase:66 - https://ascendum.com/blog/resource-center/case-studies/dna-diagnostics/ OK. The url is valid
+2019-04-22 15:50:46 INFO  TestBase:66 - https://ascendum.com/# OK. The url is valid
+2019-04-22 15:50:47 INFO  TestBase:66 - https://ascendum.com/blog/resource-center/case-studies/realtime-offer-and-analytics-deployment-solution/ OK. The url is valid
+2019-04-22 15:50:47 INFO  TestBase:66 - https://ascendum.com/# OK. The url is valid
+2019-04-22 15:50:48 INFO  TestBase:66 - https://ascendum.com/blog/resource-center/case-studies/mobile-solutions-for-retail-industry/ OK. The url is valid
+2019-04-22 15:50:48 INFO  TestBase:66 - https://ascendum.com/# OK. The url is valid
+2019-04-22 15:50:49 INFO  TestBase:66 - https://ascendum.com/blog/resource-center/case-studies/stop-running-reports-start-analyzing-crime/ OK. The url is valid
+2019-04-22 15:50:49 INFO  TestBase:66 - https://ascendum.com/# OK. The url is valid
+2019-04-22 15:50:50 INFO  TestBase:66 - https://ascendum.com/blog/resource-center/case-studies/next-generation-extensible-and-truly-global-platform/ OK. The url is valid
+2019-04-22 15:50:50 INFO  TestBase:66 - https://ascendum.com/# OK. The url is valid
+2019-04-22 15:50:51 INFO  TestBase:66 - https://ascendum.com/blog/resource-center/case-studies/us-residential-mortgage-services-2/ OK. The url is valid
+2019-04-22 15:50:51 INFO  TestBase:66 - https://ascendum.com/# OK. The url is valid
+2019-04-22 15:50:52 INFO  TestBase:66 - https://ascendum.com/blog/resource-center/case-studies/medical-billing-services/ OK. The url is valid
+2019-04-22 15:50:52 INFO  TestBase:66 - https://ascendum.com/# OK. The url is valid
+2019-04-22 15:50:53 INFO  TestBase:66 - https://ascendum.com/blog/resource-center/case-studies/us-residential-mortgage-services-1/ OK. The url is valid
+2019-04-22 15:50:53 INFO  TestBase:66 - https://ascendum.com/# OK. The url is valid
+2019-04-22 15:50:54 INFO  TestBase:66 - https://ascendum.com/blog/resource-center/case-studies/virtual-assistance-services/ OK. The url is valid
+2019-04-22 15:50:54 INFO  TestBase:66 - https://ascendum.com/# OK. The url is valid
+2019-04-22 15:50:55 INFO  TestBase:66 - https://ascendum.com/blog/resource-center/case-studies/title-processing-services/ OK. The url is valid
+2019-04-22 15:50:55 INFO  TestBase:66 - https://ascendum.com/ OK. The url is valid
+2019-04-22 15:50:55 INFO  TestBase:47 - mailto:info@ascendum.com - URL belongs to another domain. Hence, skipping it.
+2019-04-22 15:50:55 INFO  TestBase:47 - mailto:info@ascendum.com - URL belongs to another domain. Hence, skipping it.
+2019-04-22 15:50:55 INFO  TestBase:47 - http://www.voraventures.com/ - URL belongs to another domain. Hence, skipping it.
+2019-04-22 15:50:56 INFO  TestBase:66 - https://ascendum.com/ OK. The url is valid
+2019-04-22 15:50:57 INFO  TestBase:66 - https://ascendum.com/company/ OK. The url is valid
+2019-04-22 15:50:57 INFO  TestBase:66 - https://ascendum.com/careers/culture-and-values/ OK. The url is valid
+2019-04-22 15:50:57 INFO  TestBase:66 - https://ascendum.com/contact/ OK. The url is valid
+2019-04-22 15:50:58 INFO  TestBase:66 - https://ascendum.com/privacy-trademarks/ OK. The url is valid
+2019-04-22 15:50:58 INFO  TestBase:66 - https://ascendum.com/terms-of-use/ OK. The url is valid
+2019-04-22 15:50:59 INFO  TestBase:66 - https://ascendum.com/services/ascendum-tech-services/ OK. The url is valid
+2019-04-22 15:50:59 INFO  TestBase:66 - https://ascendum.com/services/quality-assurance/ OK. The url is valid
+2019-04-22 15:51:00 INFO  TestBase:66 - https://ascendum.com/services/on-demand-services/ OK. The url is valid
+2019-04-22 15:51:00 INFO  TestBase:66 - https://ascendum.com/industries/retail/ OK. The url is valid
+2019-04-22 15:51:01 INFO  TestBase:66 - https://ascendum.com/industries/hi-tech/ OK. The url is valid
+2019-04-22 15:51:01 INFO  TestBase:66 - https://ascendum.com/industries/financial-services/ OK. The url is valid
+2019-04-22 15:51:02 INFO  TestBase:66 - https://ascendum.com/industries/healthcare/ OK. The url is valid
+2019-04-22 15:51:02 INFO  TestBase:66 - https://ascendum.com/practices/business-transformation-btx/ OK. The url is valid
+2019-04-22 15:51:03 INFO  TestBase:66 - https://ascendum.com/practices/internet-of-things/ OK. The url is valid
+2019-04-22 15:51:03 INFO  TestBase:66 - https://ascendum.com/resource-center/case-studies/ OK. The url is valid
+2019-04-22 15:51:03 INFO  TestBase:66 - https://ascendum.com/resource-center/news-events/ OK. The url is valid
+2019-04-22 15:51:03 INFO  TestBase:47 - https://www.facebook.com/Ascendum - URL belongs to another domain. Hence, skipping it.
+2019-04-22 15:51:03 INFO  TestBase:47 - http://www.linkedin.com/company/ascendum-solutions - URL belongs to another domain. Hence, skipping it.
+2019-04-22 15:51:03 INFO  TestBase:47 - https://twitter.com/ascendum - URL belongs to another domain. Hence, skipping it.
+2019-04-22 15:51:03 INFO  TestBase:47 - http://www.youtube.com/user/AscendumSolutions - URL belongs to another domain. Hence, skipping it.
+2019-04-22 15:51:03 INFO  TestBase:47 - https://plus.google.com/+AscendumSolutionsLLCCincinnati/about - URL belongs to another domain. Hence, skipping it.
+2019-04-22 15:51:03 INFO  TestBase:47 - mailto:info@ascendum.com - URL belongs to another domain. Hence, skipping it.
+2019-04-22 15:51:03 INFO  TestBase:47 - mailto:info@ascendum.com - URL belongs to another domain. Hence, skipping it.
