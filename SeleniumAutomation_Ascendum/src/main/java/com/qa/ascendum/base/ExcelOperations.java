@@ -21,23 +21,23 @@ import com.qa.ascendum.pageLocators.HomePageLocators;
 
 public class ExcelOperations extends TestBase {
 
-	public static File file;
-	public static FileInputStream fis;
-	public static XSSFWorkbook workbook;
-	public static XSSFSheet sheet;
-	public static Row row;
-	public static Cell cell;
+	public File file;
+	public FileInputStream fis;
+	public XSSFWorkbook workbook;
+	public XSSFSheet sheet;
+	public Row row;
+	public Cell cell;
 
 	public static final Logger log = Logger.getLogger(ExcelOperations.class.getName());
 
 	// Launches the excel file
-	public static FileInputStream FileInput(String excelPath) throws IOException {
+	public FileInputStream FileInput(String excelPath) throws IOException {
 		fis = new FileInputStream(new File(excelPath));
 		return fis;
 	}
 
 	// Fetches the workbook required from the excel file path specified
-	public static XSSFWorkbook fetchWorkBook(Object object) throws IOException {
+	public XSSFWorkbook fetchWorkBook(Object object) throws IOException {
 		workbook = new XSSFWorkbook(fis);
 		return workbook;
 
@@ -45,7 +45,7 @@ public class ExcelOperations extends TestBase {
 
 	// Fetches the workSheet required from the excel file path specified with the
 	// index no
-	public static XSSFWorkbook fetchWorkSheet(Object object, int sheetNo) throws IOException {
+	public XSSFWorkbook fetchWorkSheet(Object object, int sheetNo) throws IOException {
 		sheet = workbook.getSheetAt(sheetNo);
 		return workbook;
 
@@ -53,14 +53,14 @@ public class ExcelOperations extends TestBase {
 
 	// Fetches the workSheet required from the excel file path specified with the
 	// name
-	public static XSSFWorkbook fetchWorkSheet(Object object, String sheetName) throws IOException {
+	public XSSFWorkbook fetchWorkSheet(Object object, String sheetName) throws IOException {
 		sheet = workbook.getSheet(sheetName);
 		return workbook;
 
 	}
 
 	// Iterate over the rows
-	public static void iterateOverRows() {
+	public void iterateOverRows() {
 		// Iterate through each rows one by one
 		Iterator<Row> rowIterator = sheet.iterator();
 		while (rowIterator.hasNext()) {
@@ -85,12 +85,12 @@ public class ExcelOperations extends TestBase {
 	}
 
 	// close the file opened
-	public static void closeFile() throws IOException {
+	public void closeFile() throws IOException {
 		fis.close();
 	}
 
 	// code to read data at a particular row
-	public static Object readCellDataFromExcel(int rowNo, int cellNo) {
+	public Object readCellDataFromExcel(int rowNo, int cellNo) {
 		row = sheet.getRow(rowNo);
 		cell = row.getCell(cellNo);
 		log.info("Data in the cell is : " + cell.toString());
@@ -100,7 +100,7 @@ public class ExcelOperations extends TestBase {
 
 	// code to read data at a particular row - cell and enters it in the specified
 	// element on the web page
-	public static Object readCellDataFromExcel(int rowNo, int cellNo, By locator) {
+	public Object readCellDataFromExcel(int rowNo, int cellNo, By locator) {
 		row = sheet.getRow(rowNo);
 		cell = row.getCell(cellNo);
 		WebElement element = driver.findElement(locator);
@@ -111,7 +111,7 @@ public class ExcelOperations extends TestBase {
 
 	}
 
-	public static void callExcelMethods() {
+	public void enterTextFromExcelInLocator() {
 		try {
 			FileInput(System.getProperty("user.dir") + properties.getProperty("excelFilePath"));
 			fetchWorkBook(workbook);

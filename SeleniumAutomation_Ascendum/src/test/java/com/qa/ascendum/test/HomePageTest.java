@@ -8,16 +8,21 @@ import org.testng.annotations.Test;
 
 public class HomePageTest extends TestBase {
 
-    public static final Logger log = Logger.getLogger(HomePageTest.class.getName());
+	public static final Logger log = Logger.getLogger(HomePageTest.class.getName());
 
-    HomePageActions homepageactions = new HomePageActions();
+	HomePageActions homepageactions = new HomePageActions();
 
-    @Test
-    public void validateHomepage() {
-        homepageactions.verifyHomePageElements();
-//        homepageactions.checkLinks();
-//        homepageactions.searchData();
-//        homepageactions.mouseHoverServiceLink();
-        ExcelOperations.callExcelMethods();
-    }
+	@Test
+	public void validateHomepage() {
+		homepageactions.verifyHomePageElements();
+		homepageactions.checkLinks();
+		homepageactions.searchData();
+		homepageactions.mouseHoverServiceLink();
+	}
+	
+	@Test
+	public void searchPhrase()
+	{
+		homepageactions.enterTextFromExcelInLocator();
+	}
 }
