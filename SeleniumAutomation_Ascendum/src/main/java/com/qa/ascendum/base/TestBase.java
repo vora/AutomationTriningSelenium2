@@ -44,19 +44,19 @@ public class TestBase {
     }
 
     @BeforeTest
-    public static void Initialize_Browser() {
-        final String browser_Name = properties.getProperty("browser");
+    @Parameters({"browserChrome"})
+    public static void Initialize_Browser(String paramBrowser) {
 
-        if (browser_Name.equalsIgnoreCase("chrome")) {
+        if (paramBrowser.equalsIgnoreCase("chrome")) {
             System.setProperty("webdriver.chrome.driver",
                     System.getProperty("user.dir") + "\\src\\main\\java\\com\\qa\\ascendum\\drivers\\chromedriver.exe");
             driver = new ChromeDriver();
-            log.info("Creating the object of " + browser_Name);
-        } else if (browser_Name.equalsIgnoreCase("firefox")) {
+            log.info("Creating the object of " + paramBrowser);
+        } else if (paramBrowser.equalsIgnoreCase("firefox")) {
             System.setProperty("webdriver.gecko.driver",
                     System.getProperty("user.dir") + "\\src\\main\\java\\com\\qa\\ascendum\\drivers\\geckodriver.exe");
             driver = new FirefoxDriver();
-            log.info("Creating the object of " + browser_Name);
+            log.info("Creating the object of " + paramBrowser);
         }
 
         driver.manage().window().maximize();

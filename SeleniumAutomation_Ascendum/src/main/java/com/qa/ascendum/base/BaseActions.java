@@ -156,5 +156,12 @@ public class BaseActions extends TestBase {
         Actions actions = new Actions(driver);
         actions.moveToElement(element).build().perform();
     }
+    
+    //clears the textBox
+    public void clearTextBox(By locator)
+    {
+    	 WebElement element = driver.findElement(locator);
+    	 element.clear(); 
+    }
 
 }

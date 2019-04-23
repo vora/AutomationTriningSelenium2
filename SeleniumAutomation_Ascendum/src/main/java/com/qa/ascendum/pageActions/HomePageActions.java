@@ -11,7 +11,7 @@ public class HomePageActions extends TestBase {
 	HomePageLocators homePageLocators = new HomePageLocators();
 	ExcelOperations excelOperations = new ExcelOperations();
 
-	String enterText = "testing blog";
+	String enterText = "Manager";
 	String searchText = enterText;
 
 	public void verifyHomePageElements() {
@@ -27,6 +27,7 @@ public class HomePageActions extends TestBase {
 	}
 
 	public void searchData() {
+		baseActions.clearTextBox(homePageLocators.textBox_search);
 		baseActions.searchText(homePageLocators.textBox_search, enterText);
 		baseActions.clickLinksAndButtons(homePageLocators.icon_search);
 		baseActions.retrievedSearchResults(homePageLocators.searcResults, searchText);

@@ -2,6 +2,10 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Suite">
     <test name="Test">
+    <parameter name="browserChrome" value="chrome"></parameter>
+     <parameter name="browserff" value="firefox"></parameter>
+     <parameter name="entryOne" value="Software"></parameter>
+     <parameter name="entryTwo" value="Machine Learning"></parameter>
         <classes>
             <class name="com.qa.ascendum.test.HomePageTest"/>
         </classes>

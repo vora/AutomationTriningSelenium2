@@ -104,6 +104,7 @@ public class ExcelOperations extends TestBase {
 		row = sheet.getRow(rowNo);
 		cell = row.getCell(cellNo);
 		WebElement element = driver.findElement(locator);
+		element.clear();
 		element.sendKeys(cell.toString());
 		log.info("The cell data is : " + "\"" + cell.toString() + "\""
 				+ " is succesfully entered in the specified web element");
