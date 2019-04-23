@@ -1,5 +1,6 @@
 package com.qa.ascendum.test;
 
+import com.qa.ascendum.base.ExcelOperations;
 import com.qa.ascendum.base.TestBase;
 import com.qa.ascendum.pageActions.HomePageActions;
 import org.apache.log4j.Logger;
@@ -14,8 +15,9 @@ public class HomePageTest extends TestBase {
     @Test
     public void validateHomepage() {
         homepageactions.verifyHomePageElements();
-        homepageactions.checkLinks();
-        homepageactions.searchData();
-        homepageactions.mouseHoverServiceLink();
+//        homepageactions.checkLinks();
+//        homepageactions.searchData();
+//        homepageactions.mouseHoverServiceLink();
+        ExcelOperations.callExcelMethods();
     }
 }
