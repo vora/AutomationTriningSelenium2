@@ -1,5 +1,7 @@
 package com.qa.ascendum.pageActions;
 
+import org.testng.annotations.DataProvider;
+
 import com.qa.ascendum.base.BaseActions;
 import com.qa.ascendum.base.ExcelOperations;
 import com.qa.ascendum.base.TestBase;
@@ -11,7 +13,7 @@ public class HomePageActions extends TestBase {
 	HomePageLocators homePageLocators = new HomePageLocators();
 	ExcelOperations excelOperations = new ExcelOperations();
 
-	String enterText = "Manager";
+	String enterText = properties.getProperty("enterTextfromConfig");
 	String searchText = enterText;
 
 	public void verifyHomePageElements() {
@@ -48,5 +50,11 @@ public class HomePageActions extends TestBase {
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
+	}
+
+	// method to show the user of @DataProvider annotation
+	@DataProvider(name = "DP_SearchText")
+	public Object[][] fetchDataWithDataProvider() {
+		return new Object[][] { { "technology" } };
 	}
 }

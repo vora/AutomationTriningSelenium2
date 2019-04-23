@@ -840,3 +840,102 @@
 2019-04-23 10:18:15 INFO  TestBase:27 - The webelement : Careers is present on the web page.
 2019-04-23 10:18:15 INFO  TestBase:27 - The webelement : Contact is present on the web page.
 2019-04-23 10:18:17 INFO  ExcelOperations:109 - The cell data is : "learning" is succesfully entered in the specified web element
+2019-04-23 10:56:15 INFO  TestBase:54 - Creating the object of chrome
+2019-04-23 10:56:18 INFO  TestBase:66 - Navigating to https://www.ascendum.com
+2019-04-23 10:56:19 INFO  TestBase:27 - The webelement : Services is present on the web page.
+2019-04-23 10:56:19 INFO  TestBase:27 - The webelement : Resources is present on the web page.
+2019-04-23 10:56:19 INFO  TestBase:27 - The webelement : Careers is present on the web page.
+2019-04-23 10:56:19 INFO  TestBase:27 - The webelement : Contact is present on the web page.
+2019-04-23 10:56:21 INFO  ExcelOperations:109 - The cell data is : "learning" is succesfully entered in the specified web element
+2019-04-23 10:57:09 INFO  TestBase:54 - Creating the object of chrome
+2019-04-23 10:57:13 INFO  TestBase:66 - Navigating to https://www.ascendum.com
+2019-04-23 10:57:13 INFO  TestBase:27 - The webelement : Services is present on the web page.
+2019-04-23 10:57:13 INFO  TestBase:27 - The webelement : Resources is present on the web page.
+2019-04-23 10:57:13 INFO  TestBase:27 - The webelement : Careers is present on the web page.
+2019-04-23 10:57:13 INFO  TestBase:27 - The webelement : Contact is present on the web page.
+2019-04-23 11:00:48 INFO  TestBase:54 - Creating the object of chrome
+2019-04-23 11:00:52 INFO  TestBase:66 - Navigating to https://www.ascendum.com
+2019-04-23 11:00:52 INFO  TestBase:27 - The webelement : Services is present on the web page.
+2019-04-23 11:00:52 INFO  TestBase:27 - The webelement : Resources is present on the web page.
+2019-04-23 11:00:52 INFO  TestBase:27 - The webelement : Careers is present on the web page.
+2019-04-23 11:00:52 INFO  TestBase:27 - The webelement : Contact is present on the web page.
+2019-04-23 11:01:40 INFO  TestBase:54 - Creating the object of chrome
+2019-04-23 11:01:43 INFO  TestBase:66 - Navigating to https://www.ascendum.com
+2019-04-23 11:02:32 INFO  TestBase:27 - The webelement : Services is present on the web page.
+2019-04-23 11:02:32 INFO  TestBase:27 - The webelement : Resources is present on the web page.
+2019-04-23 11:02:32 INFO  TestBase:27 - The webelement : Careers is present on the web page.
+2019-04-23 11:02:32 INFO  TestBase:27 - The webelement : Contact is present on the web page.
+2019-04-23 11:03:26 INFO  TestBase:54 - Creating the object of chrome
+2019-04-23 11:03:29 INFO  TestBase:66 - Navigating to https://www.ascendum.com
+2019-04-23 11:03:30 INFO  TestBase:27 - The webelement : Services is present on the web page.
+2019-04-23 11:03:30 INFO  TestBase:27 - The webelement : Resources is present on the web page.
+2019-04-23 11:03:30 INFO  TestBase:27 - The webelement : Careers is present on the web page.
+2019-04-23 11:03:30 INFO  TestBase:27 - The webelement : Contact is present on the web page.
+2019-04-23 11:19:34 INFO  TestBase:54 - Creating the object of chrome
+2019-04-23 11:19:39 INFO  TestBase:66 - Navigating to https://www.ascendum.com
+2019-04-23 11:19:39 INFO  TestBase:27 - The webelement : Services is present on the web page.
+2019-04-23 11:19:39 INFO  TestBase:27 - The webelement : Resources is present on the web page.
+2019-04-23 11:19:39 INFO  TestBase:27 - The webelement : Careers is present on the web page.
+2019-04-23 11:19:39 INFO  TestBase:27 - The webelement : Contact is present on the web page.
+2019-04-23 11:24:48 INFO  TestBase:54 - Creating the object of chrome
+2019-04-23 11:24:51 INFO  TestBase:66 - Navigating to https://www.ascendum.com
+2019-04-23 11:24:51 INFO  TestBase:27 - The webelement : Services is present on the web page.
+2019-04-23 11:24:51 INFO  TestBase:27 - The webelement : Resources is present on the web page.
+2019-04-23 11:24:51 INFO  TestBase:27 - The webelement : Careers is present on the web page.
+2019-04-23 11:24:51 INFO  TestBase:27 - The webelement : Contact is present on the web page.
+2019-04-23 11:30:35 INFO  TestBase:54 - Creating the object of chrome
+2019-04-23 11:30:38 INFO  TestBase:66 - Navigating to https://www.ascendum.com
+2019-04-23 11:30:38 INFO  TestBase:27 - The webelement : Services is present on the web page.
+2019-04-23 11:30:38 INFO  TestBase:27 - The webelement : Resources is present on the web page.
+2019-04-23 11:30:38 INFO  TestBase:27 - The webelement : Careers is present on the web page.
+2019-04-23 11:30:38 INFO  TestBase:27 - The webelement : Contact is present on the web page.
+2019-04-23 11:31:55 INFO  TestBase:54 - Creating the object of chrome
+2019-04-23 11:31:58 INFO  TestBase:66 - Navigating to https://www.ascendum.com
+2019-04-23 11:31:59 INFO  TestBase:27 - The webelement : Services is present on the web page.
+2019-04-23 11:31:59 INFO  TestBase:27 - The webelement : Resources is present on the web page.
+2019-04-23 11:31:59 INFO  TestBase:27 - The webelement : Careers is present on the web page.
+2019-04-23 11:31:59 INFO  TestBase:27 - The webelement : Contact is present on the web page.
+2019-04-23 11:34:02 INFO  TestBase:54 - Creating the object of chrome
+2019-04-23 11:34:06 INFO  TestBase:66 - Navigating to https://www.ascendum.com
+2019-04-23 11:34:06 INFO  TestBase:27 - The webelement : Services is present on the web page.
+2019-04-23 11:34:06 INFO  TestBase:27 - The webelement : Resources is present on the web page.
+2019-04-23 11:34:06 INFO  TestBase:27 - The webelement : Careers is present on the web page.
+2019-04-23 11:34:06 INFO  TestBase:27 - The webelement : Contact is present on the web page.
+2019-04-23 11:48:08 INFO  TestBase:54 - Creating the object of chrome
+2019-04-23 11:48:11 INFO  TestBase:66 - Navigating to https://www.ascendum.com
+2019-04-23 11:48:11 INFO  TestBase:27 - The webelement : Services is present on the web page.
+2019-04-23 11:48:11 INFO  TestBase:27 - The webelement : Resources is present on the web page.
+2019-04-23 11:48:11 INFO  TestBase:27 - The webelement : Careers is present on the web page.
+2019-04-23 11:48:12 INFO  TestBase:27 - The webelement : Contact is present on the web page.
+2019-04-23 11:50:06 INFO  TestBase:54 - Creating the object of chrome
+2019-04-23 11:50:10 INFO  TestBase:66 - Navigating to https://www.ascendum.com
+2019-04-23 11:55:50 INFO  TestBase:54 - Creating the object of chrome
+2019-04-23 11:55:54 INFO  TestBase:66 - Navigating to https://www.ascendum.com
+2019-04-23 11:56:42 INFO  TestBase:54 - Creating the object of chrome
+2019-04-23 11:56:45 INFO  TestBase:66 - Navigating to https://www.ascendum.com
+2019-04-23 11:59:07 INFO  TestBase:54 - Creating the object of chrome
+2019-04-23 11:59:10 INFO  TestBase:66 - Navigating to https://www.ascendum.com
+2019-04-23 11:59:39 INFO  TestBase:54 - Creating the object of chrome
+2019-04-23 11:59:42 INFO  TestBase:66 - Navigating to https://www.ascendum.com
+2019-04-23 12:00:17 INFO  TestBase:54 - Creating the object of chrome
+2019-04-23 12:00:20 INFO  TestBase:66 - Navigating to https://www.ascendum.com
+2019-04-23 12:00:59 INFO  TestBase:54 - Creating the object of chrome
+2019-04-23 12:01:03 INFO  TestBase:66 - Navigating to https://www.ascendum.com
+2019-04-23 12:02:32 INFO  TestBase:54 - Creating the object of chrome
+2019-04-23 12:02:35 INFO  TestBase:66 - Navigating to https://www.ascendum.com
+2019-04-23 12:03:20 INFO  TestBase:54 - Creating the object of chrome
+2019-04-23 12:03:24 INFO  TestBase:66 - Navigating to https://www.ascendum.com
+2019-04-23 12:03:48 INFO  TestBase:54 - Creating the object of chrome
+2019-04-23 12:03:52 INFO  TestBase:66 - Navigating to https://www.ascendum.com
+2019-04-23 12:04:18 INFO  TestBase:54 - Creating the object of chrome
+2019-04-23 12:04:22 INFO  TestBase:66 - Navigating to https://www.ascendum.com
+2019-04-23 12:05:00 INFO  TestBase:54 - Creating the object of chrome
+2019-04-23 12:05:03 INFO  TestBase:66 - Navigating to https://www.ascendum.com
+2019-04-23 12:06:00 INFO  TestBase:54 - Creating the object of chrome
+2019-04-23 12:06:03 INFO  TestBase:66 - Navigating to https://www.ascendum.com
+2019-04-23 12:08:10 INFO  TestBase:54 - Creating the object of chrome
+2019-04-23 12:08:13 INFO  TestBase:66 - Navigating to https://www.ascendum.com
+2019-04-23 12:13:18 INFO  TestBase:54 - Creating the object of chrome
+2019-04-23 12:13:21 INFO  TestBase:66 - Navigating to https://www.ascendum.com
+2019-04-23 12:14:28 INFO  TestBase:54 - Creating the object of chrome
+2019-04-23 12:14:31 INFO  TestBase:66 - Navigating to https://www.ascendum.com
