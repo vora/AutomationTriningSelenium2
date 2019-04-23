@@ -28,7 +28,6 @@ public class BaseActions extends TestBase {
         } else {
             log.info("The welelment : " + "" + retrieveText(locator) + "\""
                     + " is miising - There might be some error in loading of the page. Please refresh and try again.");
-            System.out.println("Testing");
         }
     }
 
