@@ -8,7 +8,7 @@ import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
 import com.aventstack.extentreports.reporter.configuration.Theme;
 
 public class ExtentManager {
-	private static ExtentReports extent;
+	private static ExtentReports extentReports;
 
 	private static String reportFileName = "AscendumSelenium-Automation" + ".html";
 	private static String fileSeperator = System.getProperty("file.separator");
@@ -16,9 +16,9 @@ public class ExtentManager {
 	private static String reportFileLocation = reportFilepath + fileSeperator + reportFileName;
 
 	public static ExtentReports getInstance() {
-		if (extent == null)
+		if (extentReports == null)
 			createInstance();
-		return extent;
+		return extentReports;
 	}
 
 	// Create an extent report instance
@@ -32,12 +32,12 @@ public class ExtentManager {
 		htmlReporter.config().setReportName(reportFileName);
 		htmlReporter.config().setTimeStampFormat("EEEE, MMMM dd, yyyy, hh:mm a '('zzz')'");
 
-		extent = new ExtentReports();
-		extent.attachReporter(htmlReporter);
+		extentReports = new ExtentReports();
+		extentReports.attachReporter(htmlReporter);
 		// Set environment details
-		extent.setSystemInfo("OS", "Windows");
-		extent.setSystemInfo("Author", "Rajeshwari Prem");
-		return extent;
+		extentReports.setSystemInfo("OS", "Windows");
+		extentReports.setSystemInfo("Author", "Rajeshwari Prem");
+		return extentReports;
 	}
 
 	// Create the report path

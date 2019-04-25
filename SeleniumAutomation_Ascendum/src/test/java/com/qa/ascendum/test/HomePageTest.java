@@ -8,39 +8,45 @@ import org.testng.Assert;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
+import com.aventstack.extentreports.ExtentReports;
+import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.Status;
 import com.qa.ascendum.base.BaseActions;
 import com.qa.ascendum.base.ExcelOperations;
 import com.qa.ascendum.base.TestBase;
 import com.qa.ascendum.pageActions.HomePageActions;
 import com.qa.ascendum.pageLocators.HomePageLocators;
+import com.qa.ascendum.pageLocators.ServicesPageLocators;
 import com.qa.ascendum.reports.ExtentTestManager;
 
 public class HomePageTest extends TestBase {
+
+	ExtentReports extentReports;
+	ExtentTest extentTest;
 
 	public static final Logger log = Logger.getLogger(HomePageTest.class.getName());
 
 	HomePageActions homepageactions = new HomePageActions();
 	BaseActions baseActions = new BaseActions();
 	HomePageLocators homePageLocators = new HomePageLocators();
+	ServicesPageLocators servicesPageLocators = new ServicesPageLocators();
 	ExcelOperations excelOperations = new ExcelOperations();
 
-	//@Test(priority = 1)
+	@Test(priority = 1)
 	public void validateHomepage() throws IOException {
 		homepageactions.verifyHomePageElements();
-		// homepageactions.checkLinks();
+		homepageactions.checkLinks();
 		homepageactions.searchData();
 		homepageactions.mouseHoverServiceLink();
 	}
 
-	//@Test(priority = 2)
+	@Test(priority = 2)
 	public void searchPhrase() {
 		homepageactions.enterTextFromExcelInLocator();
-		ExtentTestManager.getTest().log(Status.INFO, "searchPhrase");
 	}
 
 	// Shows the usage of @Parameter annotation
-	//@Test(priority = 3)
+	@Test(priority = 3)
 	@Parameters({ "entryTwo" })
 	public void enterValueParam(String enterParams) {
 		baseActions.clearTextBox(homePageLocators.textBox_search);
@@ -50,14 +56,14 @@ public class HomePageTest extends TestBase {
 	}
 
 	// Shows the usage of @DataProvider annotation
-	//@Test(priority = 3, dataProvider = "DP_SearchText", dataProviderClass = com.qa.ascendum.pageActions.HomePageActions.class)
-	public void testMethod(String enterText) {
+	@Test(priority = 4, dataProvider = "DP_SearchText", dataProviderClass = com.qa.ascendum.pageActions.HomePageActions.class)
+	public void useDataProviderValue(String enterText) {
 		baseActions.clearTextBox(homePageLocators.textBox_search);
 		baseActions.searchText(homePageLocators.textBox_search, enterText);
 	}
 
-	//@Test
-	public void write() throws IOException {
+	@Test(priority = 5)
+	public void writeToExcel() throws IOException {
 		String element = driver.findElement(HomePageLocators.link_careers).getText();
 		excelOperations.FileInput(System.getProperty("user.dir") + properties.getProperty("excelFilePath"));
 		excelOperations.fetchWorkBook(excelOperations.fis);
@@ -72,11 +78,9 @@ public class HomePageTest extends TestBase {
 		excelOperations.workbook.write(fos);
 	}
 
-	@Test
-	public void getH3List() throws InterruptedException, IOException
-	{
+	@Test(priority = 6)
+	public void getH3List() throws InterruptedException, IOException {
 		homepageactions.getHeadersH3(homePageLocators.headers);
-		baseActions.captureScreen(driver, "finally");
-		
 	}
+
 }

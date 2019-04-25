@@ -19,7 +19,9 @@ import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import org.testng.ITestResult;
 
@@ -50,14 +52,13 @@ public class BaseActions extends TestBase {
 		List<WebElement> allLinks = driver.findElements(By.tagName("a"));
 		Iterator<WebElement> it = allLinks.iterator();
 		while (it.hasNext()) {
-
 			url = it.next().getAttribute("href");
 			if (url == null || url.equals("")) {
 				continue;
 			}
 
 			if (!url.startsWith(homePage)) {
-				log.info(url + " - URL belongs to another domain. Hence, skipping it.");
+				// log.info(url + " - URL belongs to another domain. Hence, skipping it.");
 				continue;
 			}
 
@@ -81,16 +82,18 @@ public class BaseActions extends TestBase {
 			this.checkFor200Status(httpConn.getResponseCode());
 
 			if (httpConn.getResponseCode() >= 300) {
-				log.info(link + " - " + httpConn.getResponseMessage() + ". The URL is being redirected");
+				// log.info(link + " - " + httpConn.getResponseMessage() + ". The URL is being
+				// redirected");
 			}
 
 			if (httpConn.getResponseCode() >= 400) {
-				System.out.println(
-						link + " - " + httpConn.getResponseMessage() + ". The URL is either broken or not configured");
+				// log.info(link + " - " + httpConn.getResponseMessage() + ". The URL is either
+				// broken or not configured");
 			}
 
 			if (httpConn.getResponseCode() >= 500) {
-				System.out.println(link + " - " + httpConn.getResponseMessage() + ". There are server errors");
+				// log.info(link + " - " + httpConn.getResponseMessage() + ". There are server
+				// errors");
 			}
 
 		} catch (Exception e) {
@@ -169,10 +172,36 @@ public class BaseActions extends TestBase {
 		actions.moveToElement(element).build().perform();
 	}
 
+	// enters a text in a text box
+	public void enterText(By locator, String keysToSend) {
+		WebElement element = driver.findElement(locator);
+		element.sendKeys(keysToSend);
+	}
+
 	// clears the textBox
 	public void clearTextBox(By locator) {
 		WebElement element = driver.findElement(locator);
 		element.clear();
+	}
+
+	// method to select the checkbox
+	public void selectCheckBox(By locator) {
+		WebElement element = driver.findElement(locator);
+		element.click();
+	}
+
+	// method to deselect the checkbox
+	public void deSelectCheckBox(By locator) {
+		WebElement element = driver.findElement(locator);
+		element.click();
+	}
+
+	// method to check if a checkbox is selected or not
+	public void checkBoxSelected(By locator) {
+		WebElement element = driver.findElement(locator);
+		if (!element.isSelected()) {
+			element.click();
+		}
 	}
 
 	// selects a value from the dropdown based on the index provided
@@ -193,7 +222,8 @@ public class BaseActions extends TestBase {
 		select.selectByVisibleText(visibleText);
 	}
 
-	//Captures screen shot at a specified folder with name entered in the parameters
+	// Captures screen shot at a specified folder with name entered in the
+	// parameters
 	public static String captureScreen(WebDriver driver, String screenName) throws IOException {
 		TakesScreenshot screen = (TakesScreenshot) driver;
 		File src = screen.getScreenshotAs(OutputType.FILE);
@@ -202,4 +232,14 @@ public class BaseActions extends TestBase {
 		FileUtils.copyFile(src, target);
 		return dest;
 	}
+
+	// Compares the text of the lement with the expected text
+	public void compareElementText(By locator, String expectedString) {
+		WebElement text = driver.findElement(locator);
+		if ((text.getText()).equals(expectedString)) {
+			String actualString = retrieveText(locator);
+			Assert.assertEquals(actualString, expectedString);
+		}
+	}
+
 }

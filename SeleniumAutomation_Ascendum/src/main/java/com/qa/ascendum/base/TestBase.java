@@ -1,7 +1,6 @@
 package com.qa.ascendum.base;
 
-import com.aventstack.extentreports.ExtentReports;
-import com.aventstack.extentreports.ExtentTest;
+import com.qa.ascendum.reports.ExtentManager;
 import com.qa.ascendum.resources.TestUtil;
 
 import org.apache.commons.io.FileUtils;
@@ -23,15 +22,15 @@ import java.io.IOException;
 import java.util.Properties;
 import java.util.concurrent.TimeUnit;
 
-public class TestBase {
+public class TestBase extends ExtentManager {
 
 	public static Properties properties;
 	public static BufferedReader reader;
 	public static WebDriver driver;
 	ITestResult result;
 
-	ExtentReports extentReport;
-	ExtentTest extentTest;
+	// ExtentReports extentReport;
+	// ExtentTest extentTest;
 
 	public static final Logger log = Logger.getLogger(TestBase.class.getName());
 	public static final String propertyFilePath = System.getProperty("user.dir")
