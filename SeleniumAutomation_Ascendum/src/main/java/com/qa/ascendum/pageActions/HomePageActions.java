@@ -6,6 +6,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 import org.testng.annotations.DataProvider;
+import org.testng.annotations.Parameters;
 
 import com.qa.ascendum.base.BaseActions;
 import com.qa.ascendum.base.ExcelOperations;
@@ -13,13 +14,13 @@ import com.qa.ascendum.base.TestBase;
 import com.qa.ascendum.pageLocators.HomePageLocators;
 import com.qa.ascendum.pageLocators.ServicesPageLocators;
 
+import java.io.FileOutputStream;
 import java.io.IOException;
 import java.util.Iterator;
 
 public class HomePageActions extends TestBase {
 
 	BaseActions baseActions = new BaseActions();
-	HomePageLocators homePageLocators = new HomePageLocators();
 	ExcelOperations excelOperations = new ExcelOperations();
 	ServicesPageLocators servicesPageLocators = new ServicesPageLocators();
 
@@ -27,10 +28,10 @@ public class HomePageActions extends TestBase {
 	String searchText = enterText;
 
 	public void verifyHomePageElements() {
-		baseActions.checkIfWebElementIsPresent(homePageLocators.link_services);
-		baseActions.checkIfWebElementIsPresent(homePageLocators.link_resources);
-		baseActions.checkIfWebElementIsPresent(homePageLocators.link_careers);
-		baseActions.checkIfWebElementIsPresent(homePageLocators.link_contact);
+		baseActions.checkIfWebElementIsPresent(HomePageLocators.link_services);
+		baseActions.checkIfWebElementIsPresent(HomePageLocators.link_resources);
+		baseActions.checkIfWebElementIsPresent(HomePageLocators.link_careers);
+		baseActions.checkIfWebElementIsPresent(HomePageLocators.link_contact);
 
 	}
 
@@ -39,15 +40,26 @@ public class HomePageActions extends TestBase {
 	}
 
 	public void searchData() {
-		baseActions.clearTextBox(homePageLocators.textBox_search);
-		baseActions.searchText(homePageLocators.textBox_search, enterText);
-		baseActions.clickLinksAndButtons(homePageLocators.icon_search);
-		baseActions.retrievedSearchResults(homePageLocators.searcResults, searchText);
+		baseActions.clearTextBox(HomePageLocators.textBox_search);
+		baseActions.enterText(HomePageLocators.textBox_search, enterText);
+		baseActions.clickLinksAndButtons(HomePageLocators.icon_search);
+		baseActions.retrievedSearchResults(HomePageLocators.searcResults, searchText);
 	}
 
 	public void mouseHoverServiceLink() {
-		baseActions.mousehover(homePageLocators.link_services);
-		baseActions.clickLinksAndButtons(homePageLocators.tab_secondItem);
+		baseActions.mousehover(HomePageLocators.link_services);
+		baseActions.clickLinksAndButtons(HomePageLocators.tab_secondItem);
+	}
+	
+	public void hightAllElements() throws IOException {
+		baseActions.highlightElement(HomePageLocators.link_services);
+		baseActions.captureScreen("highlightServices");
+		baseActions.highlightElement(HomePageLocators.link_resources);
+		baseActions.captureScreen("highlightResources");
+		baseActions.highlightElement(HomePageLocators.link_careers);
+		baseActions.captureScreen("highlightCareers");
+		baseActions.highlightElement(HomePageLocators.link_contact);
+		baseActions.captureScreen("highlightContact");
 	}
 
 	public void enterTextFromExcelInLocator() {
@@ -76,7 +88,7 @@ public class HomePageActions extends TestBase {
 			try {
 				if ((h3.getText()).equals(properties.getProperty("headerTobeValidated"))) {
 					clickLinkByHref(properties.getProperty("navigateToUrl"));
-					String actual = baseActions.retrieveText(servicesPageLocators.header_intial);
+					String actual = baseActions.retrieveText(ServicesPageLocators.header_intial);
 					Assert.assertEquals(actual, expected);
 
 				} else {
@@ -101,6 +113,39 @@ public class HomePageActions extends TestBase {
 				break;
 			}
 		}
+	}
+	
+	
+	//Excel Operations
+	public void writeToExcel() throws IOException {
+		String element = driver.findElement(HomePageLocators.link_careers).getText();
+		excelOperations.FileInput(System.getProperty("user.dir") + properties.getProperty("excelFilePath"));
+		excelOperations.fetchWorkBook(excelOperations.fis);
+		excelOperations.fetchWorkSheet(excelOperations.workbook, "WriteToExcel");
+
+		excelOperations.row = excelOperations.sheet.createRow(5);
+		excelOperations.cell = excelOperations.row.createCell(7);
+		excelOperations.cell.setCellType(excelOperations.cell.CELL_TYPE_STRING);
+		excelOperations.cell.setCellValue(element);
+		FileOutputStream fos = new FileOutputStream(
+				System.getProperty("user.dir") + properties.getProperty("excelFilePath"));
+		excelOperations.workbook.write(fos);
+	}
+	
+	
+	
+	@Parameters({ "entryTwo" })
+	public void enterValueParam(String enterParams) {
+		baseActions.clearTextBox(HomePageLocators.textBox_search);
+		baseActions.enterText(HomePageLocators.textBox_search, enterParams);
+		baseActions.clickLinksAndButtons(HomePageLocators.icon_search);
+		// searchPageActions.clickSerachLink();
+		baseActions.retrieveText(HomePageLocators.link_contact);
+	
+		
+		//
+		baseActions.clearTextBox(HomePageLocators.textBox_search);
+		baseActions.enterText(HomePageLocators.textBox_search, enterText);
 	}
 
 }

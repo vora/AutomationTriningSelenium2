@@ -17,7 +17,7 @@ import com.qa.ascendum.pageLocators.HomePageLocators;
 public class ContactPageTest extends TestBase {
 
 	ContactPageActions contactPageActions = new ContactPageActions();
-	ContactPageLocators contactPageLocators = new ContactPageLocators();
+
 	BaseActions baseActions = new BaseActions();
 
 	@Test

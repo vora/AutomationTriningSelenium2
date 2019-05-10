@@ -1,6 +1,11 @@
 package com.qa.ascendum.base;
 
+import com.aventstack.extentreports.ExtentReports;
+import com.aventstack.extentreports.ExtentTest;
+import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
+import com.qa.ascendum.pageLocators.HomePageLocators;
 import com.qa.ascendum.reports.ExtentManager;
+import com.qa.ascendum.reports.ExtentTestManager;
 import com.qa.ascendum.resources.TestUtil;
 
 import org.apache.commons.io.FileUtils;
@@ -22,23 +27,27 @@ import java.io.IOException;
 import java.util.Properties;
 import java.util.concurrent.TimeUnit;
 
-public class TestBase extends ExtentManager {
+public class TestBase {
 
 	public static Properties properties;
 	public static BufferedReader reader;
 	public static WebDriver driver;
 	ITestResult result;
+	private static ExtentReports extentReports;
+	private static ExtentTest extentTest;
+	private static ExtentHtmlReporter extentHtmlReporter;
 
-	// ExtentReports extentReport;
-	// ExtentTest extentTest;
+	public ExtentReports reports;
+	public ExtentHtmlReporter htmlReporter;
+	public ExtentTest test;
 
-	public static final Logger log = Logger.getLogger(TestBase.class.getName());
-	public static final String propertyFilePath = System.getProperty("user.dir")
+	protected static final Logger log = Logger.getLogger(TestBase.class.getName());
+	protected static final String propertyFilePath = System.getProperty("user.dir")
 			+ "\\src\\main\\java\\com\\qa\\ascendum\\resources\\config.properties";
-	public static final String log4jpropertyFilepPath = System.getProperty("user.dir")
+	protected static final String log4jpropertyFilepPath = System.getProperty("user.dir")
 			+ "\\src\\main\\java\\com\\qa\\ascendum\\resources\\log4j.properties";
 
-	public TestBase() {
+	protected TestBase() {
 
 		try {
 			reader = new BufferedReader(new FileReader(propertyFilePath));
@@ -56,7 +65,7 @@ public class TestBase extends ExtentManager {
 		}
 	}
 
-	@BeforeTest
+	@BeforeClass
 	@Parameters({ "browserChrome" })
 	public static void Initialize_Browser(String paramBrowser) {
 
@@ -82,11 +91,13 @@ public class TestBase extends ExtentManager {
 	}
 
 	@AfterMethod
-	public void tearDown(ITestResult result) {
+	public String tearDown(ITestResult result) {
+		String path = null;
 		if (ITestResult.FAILURE == result.getStatus()) {
 			try {
 				TakesScreenshot ts = (TakesScreenshot) driver;
 				File source = ts.getScreenshotAs(OutputType.FILE);
+				path = "./FailedScreenshots/" + result.getName() + ".png";
 				FileUtils.copyFile(source, new File("./FailedScreenshots/" + result.getName() + ".png"));
 				log.info("Screenshot was captured for the failed testcase - ");
 			} catch (Exception e) {
@@ -95,6 +106,7 @@ public class TestBase extends ExtentManager {
 			}
 
 		}
+		return path;
 
 	}
 

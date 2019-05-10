@@ -36,7 +36,8 @@ public class ExtentManager {
 		extentReports.attachReporter(htmlReporter);
 		// Set environment details
 		extentReports.setSystemInfo("OS", "Windows");
-		extentReports.setSystemInfo("Author", "Rajeshwari Prem");
+		extentReports.setSystemInfo("Report", "Selenium Automation Report");
+		
 		return extentReports;
 	}
 

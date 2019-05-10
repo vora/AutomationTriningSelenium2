@@ -4,15 +4,17 @@
 	<listeners>
 		<listener class-name="com.qa.ascendum.reports.TestListener" />
 	</listeners>
-	<test name="Functional Test">
+	<test name="FunctionalTest">
 		<parameter name="browserChrome" value="chrome"></parameter>
 		<parameter name="browserff" value="firefox"></parameter>
 		<parameter name="entryOne" value="Software"></parameter>
 		<parameter name="entryTwo" value="Machine Learning"></parameter>
 		<classes>
-			<class name="com.qa.ascendum.test.HomePageTest" />
-			<class name="com.qa.ascendum.test.ServicePageTest" />
+			<!-- <class name="com.qa.ascendum.test.HomePageTest" />
+			<class name="com.qa.ascendum.test.ServicePageTest" /> -->
+			<!-- <class name="com.qa.ascendum.test.CareersPageTest" /> -->
 			<class name="com.qa.ascendum.test.ContactPageTest" />
+			
 
 		</classes>
 	</test> <!-- Test -->
