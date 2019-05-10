@@ -10,11 +10,11 @@
 		<parameter name="entryOne" value="Software"></parameter>
 		<parameter name="entryTwo" value="Machine Learning"></parameter>
 		<classes>
-			<!-- <class name="com.qa.ascendum.test.HomePageTest" />
-			<class name="com.qa.ascendum.test.ServicePageTest" /> -->
-			<!-- <class name="com.qa.ascendum.test.CareersPageTest" /> -->
-			<class name="com.qa.ascendum.test.ContactPageTest" />
-			
+			<class name="com.qa.ascendum.test.HomePageTest" />
+			<!-- <class name="com.qa.ascendum.test.ServicePageTest" />
+			<class name="com.qa.ascendum.test.CareersPageTest" /> -->
+			<!-- <class name="com.qa.ascendum.test.ContactPageTest" /> -->
+
 
 		</classes>
 	</test> <!-- Test -->
