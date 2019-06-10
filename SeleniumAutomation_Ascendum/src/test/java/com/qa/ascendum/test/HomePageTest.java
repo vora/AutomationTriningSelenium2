@@ -25,13 +25,11 @@ public class HomePageTest extends TestBase {
 	public static final Logger log = Logger.getLogger(HomePageTest.class.getName());
 
 	HomePageActions homepageactions = new HomePageActions();
-	BaseActions baseActions = new BaseActions();
-	ExcelOperations excelOperations = new ExcelOperations();
 
 	@Test
 	public void validateHomepage() throws IOException {
 		homepageactions.verifyHomePageElements();
-		// homepageactions.checkLinks();
+		homepageactions.checkLinks();
 		homepageactions.searchData();
 		homepageactions.mouseHoverServiceLink();
 	}
@@ -42,24 +40,7 @@ public class HomePageTest extends TestBase {
 		homepageactions.writeToExcel();
 	}
 
-	// Shows the usage of @Parameter annotation
-	@Test
-	@Parameters({ "entryTwo" })
-	public void enterValueParam(String enterParams) {
-		baseActions.clearTextBox(HomePageLocators.textBox_search);
-		baseActions.enterText(HomePageLocators.textBox_search, enterParams);
-		baseActions.clickLinksAndButtons(HomePageLocators.icon_search);
-		// searchPageActions.clickSerachLink();
-		baseActions.retrieveText(HomePageLocators.link_contact);
-	}
-
-	// Shows the usage of @DataProvider annotation
-	@Test(dataProvider = "DP_SearchText", dataProviderClass = com.qa.ascendum.pageActions.HomePageActions.class)
-	public void useDataProviderValue(String enterText) {
-		baseActions.clearTextBox(HomePageLocators.textBox_search);
-		baseActions.enterText(HomePageLocators.textBox_search, enterText);
-	}
-
+	
 
 	@Test
 	public void getH3List() throws InterruptedException, IOException {

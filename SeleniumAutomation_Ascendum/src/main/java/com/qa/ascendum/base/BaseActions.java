@@ -29,6 +29,8 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import org.testng.ITestResult;
 
+import com.qa.ascendum.resources.ConstantVariables;
+
 public class BaseActions extends TestBase {
 
 	String url = "";
@@ -63,7 +65,7 @@ public class BaseActions extends TestBase {
 				continue;
 			}
 
-			if (!url.startsWith(System.getProperty("homePage"))) {
+			if (!url.startsWith(ConstantVariables.baseUrl)) {
 				log.info(url + " - URL belongs to another domain. Hence, skipping it.");
 				continue;
 			}

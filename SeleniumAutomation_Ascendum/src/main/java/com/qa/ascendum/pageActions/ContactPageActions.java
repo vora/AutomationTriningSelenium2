@@ -16,7 +16,7 @@ import com.qa.ascendum.base.TestBase;
 import com.qa.ascendum.pageLocators.ContactPageLocators;
 import com.qa.ascendum.pageLocators.HomePageLocators;
 
-public class ContactPageActions extends TestBase {
+public class ContactPageActions extends TestBase  {
 
 	BaseActions baseActions = new BaseActions();
 	
@@ -24,11 +24,12 @@ public class ContactPageActions extends TestBase {
 	int generatedPhoneNo = baseActions.createRandomePhoneNo();
 
 	public void verifyContactPage() throws InterruptedException, IOException {
+		baseActions.clickLinksAndButtons(HomePageLocators.link_contact);
 		baseActions.compareElementText(ContactPageLocators.header_contactUS, "CONTACT US");
 		enterEnquiryFormText();
 		// selectCheckBox(ContactPageLocators.checkbox_list);
 		baseActions.scrollup();
-		selectDiscussionCheckBox();
+		//selectDiscussionCheckBox();
 
 	}
 
@@ -119,5 +120,8 @@ public class ContactPageActions extends TestBase {
 			elements.get(i).click();
 		}
 	}
+	
+	
+	
 
 }

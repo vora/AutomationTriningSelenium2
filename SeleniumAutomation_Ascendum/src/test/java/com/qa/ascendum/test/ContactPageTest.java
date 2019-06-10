@@ -22,7 +22,6 @@ public class ContactPageTest extends TestBase {
 
 	@Test
 	public void verifyContact() throws InterruptedException, IOException {
-		baseActions.clickLinksAndButtons(HomePageLocators.link_contact);
 		contactPageActions.verifyContactPage();
 	}
 
